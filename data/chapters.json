@@ -139,36 +139,69 @@
     "id": "c11",
     "number": 11,
     "title": "利水渗湿药",
-    "status": "待录入",
-    "groups": []
+    "status": "22味详细结构化资料，待终审",
+    "groups": [
+      {
+        "id": "c11-01",
+        "title": "利水消肿药"
+      },
+      {
+        "id": "c11-02",
+        "title": "利尿通淋药"
+      },
+      {
+        "id": "c11-03",
+        "title": "利湿退黄药"
+      }
+    ]
   },
   {
     "id": "c12",
     "number": 12,
     "title": "温里药",
-    "status": "待录入",
-    "groups": []
+    "status": "11味药详情已录入，待逐味终审",
+    "groups": [
+      {
+        "id": "c12-01",
+        "title": "温里药"
+      }
+    ]
   },
   {
     "id": "c13",
     "number": 13,
     "title": "理气药",
-    "status": "待录入",
-    "groups": []
+    "status": "20味详细结构化资料，待逐味终审",
+    "groups": [
+      {
+        "id": "c13-01",
+        "title": "理气药"
+      }
+    ]
   },
   {
     "id": "c14",
     "number": 14,
     "title": "消食药",
-    "status": "待录入",
-    "groups": []
+    "status": "6味详细资料，待终审",
+    "groups": [
+      {
+        "id": "c14-01",
+        "title": "消食药"
+      }
+    ]
   },
   {
     "id": "c15",
     "number": 15,
     "title": "驱虫药",
-    "status": "待录入",
-    "groups": []
+    "status": "7味详细资料，待终审",
+    "groups": [
+      {
+        "id": "c15-01",
+        "title": "驱虫药"
+      }
+    ]
   },
   {
     "id": "c16",

@@ -79,5 +79,50 @@
     "entityId": "c10",
     "count": 8,
     "label": "资料库录入：化湿药（8条，待逐味复核）"
+  },
+  {
+    "id": "import-20261019-c11",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c11",
+    "count": 22,
+    "label": "数据库新增：利水渗湿药22味（教材页面初稿，待终审）"
+  },
+  {
+    "id": "import-20261019-c12",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c12",
+    "count": 11,
+    "label": "数据库新增：温里药11味（教材页面初稿，待终审）"
+  },
+  {
+    "id": "import-20261019-c13",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c13",
+    "count": 20,
+    "label": "数据库新增：理气药20味（教材页面初稿，待终审）"
+  },
+  {
+    "id": "import-20261019-c14",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c14",
+    "count": 6,
+    "label": "数据库新增：消食药6味（教材页面初稿，待终审）"
+  },
+  {
+    "id": "import-20261019-c15",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c15",
+    "count": 7,
+    "label": "数据库新增：驱虫药7味（教材页面初稿，待终审）"
   }
 ]
