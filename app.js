@@ -3,7 +3,7 @@ const $ = (id) => document.getElementById(id);
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (ch) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
 const key = "bencao-v1-private-records";
 const endpointKey = "bencao-v1-ai-worker-url";
-let db = {chapters:[],herbs:[],knowledge:[],questions:[],notes:[],events:[],theory:[]};
+let db = {chapters:[],herbs:[],knowledge:[],questions:[],notes:[],events:[],theory:[],catalog:{chapters:{}}};
 let user = {records:[]};
 try { const parsed = JSON.parse(localStorage.getItem(key) || "{}"); if (Array.isArray(parsed.records)) user.records = parsed.records; } catch {}
 const saveUser = () => localStorage.setItem(key,JSON.stringify(user));
@@ -11,7 +11,7 @@ const nowShanghai = () => dateOf(new Date().toISOString());
 const df = new Intl.DateTimeFormat("en-US",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"});
 function dateOf(value) { const d = new Date(value); if (Number.isNaN(d.getTime())) return ""; const p = Object.fromEntries(df.formatToParts(d).map(x=>[x.type,x.value])); return p.year+"-"+p.month+"-"+p.day; }
 function isoDate(y,m,d){return y+"-"+String(m).padStart(2,"0")+"-"+String(d).padStart(2,"0");}
-let activeChapter="all", activeHerb=null, activeTopic=null, chosenDate=nowShanghai();
+let activeChapter="all", activeHerb=null, activeTopic=null, activePending=null, chosenDate=nowShanghai();
 let calMonth=Number(chosenDate.slice(5,7)), calYear=Number(chosenDate.slice(0,4));
 let currentRecordId=null, accessToken="",workerUrl=localStorage.getItem(endpointKey)||"";
 const records=()=>[...db.questions.map(r=>({...r,origin:"public"})),...db.notes.map(r=>({...r,origin:"public"})),...user.records.map(r=>({...r,origin:"local"}))];
@@ -37,9 +37,10 @@ function renderNav(){
  $("chapterCount").textContent=db.chapters.length+"章";
  $("chapterNav").innerHTML='<button class="nav-item '+(activeChapter==="all"?"active":"")+'" data-chapter="all">全部已录入中药<small>'+db.herbs.length+' 味</small></button>'+db.chapters.map(c=>{
    let count=db.herbs.filter(h=>h.chapterId===c.id).length;
-   return '<button class="nav-item '+((count||c.type==="theory")?"available ":"")+(activeChapter===c.id?"active":"")+'" data-chapter="'+escapeHtml(c.id)+'">'+c.number+'. '+escapeHtml(c.title)+'<small>'+(c.type==="theory"?"理论知识点":count?count+" 味 · 校对中":"待录入")+'</small></button>';
+   const directory=db.catalog.chapters?.[c.id]?.length||0;
+   return '<button class="nav-item '+((count||c.type==="theory")?"available ":"")+(activeChapter===c.id?"active":"")+'" data-chapter="'+escapeHtml(c.id)+'">'+c.number+'. '+escapeHtml(c.title)+'<small>'+(c.type==="theory"?"理论知识点":count?count+" 味有详情 / "+directory+" 味目录":directory?directory+" 味待补录":"待录入")+'</small></button>';
  }).join("");
- $("chapterNav").querySelectorAll("[data-chapter]").forEach(b=>b.onclick=()=>{activeChapter=b.dataset.chapter;activeHerb=null;render();});
+ $("chapterNav").querySelectorAll("[data-chapter]").forEach(b=>b.onclick=()=>{activeChapter=b.dataset.chapter;activeHerb=null;activePending=null;render();});
 }
 function showTheoryChapter(){
  const ch=db.theory.find(x=>x.chapterId===activeChapter);
@@ -65,20 +66,27 @@ function showTheoryChapter(){
 function renderHerbList(){
  if(showTheoryChapter()){renderExtraResults();return;}
  const matches=matchingHerbs();
- $("herbCount").textContent=db.herbs.length+" 味已录入";
- $("resultCount").textContent=matches.length+" 味";
+ const hasFilters=Boolean($("natureFilter").value||$("meridianFilter").value);
+ const search=$("searchInput").value.trim().toLowerCase();
+ const directory=Object.values(db.catalog.chapters||{}).flat().filter(x=>activeChapter==="all"||x.chapterId===activeChapter);
+ const pending=hasFilters?[]:directory.filter(x=>!db.herbs.some(h=>h.name===x.name&&h.chapterId===x.chapterId)&&(!search||x.name.toLowerCase().includes(search)));
+ if(activePending && !pending.some(p=>p.name===activePending))activePending=null;
+ $("herbCount").textContent=db.herbs.length+" 味已有详情 · 全书目录 "+directory.length+" 味";
+ $("resultCount").textContent=(matches.length+pending.length)+" 条";
  const c=chapterById(activeChapter);
- $("coverage").textContent=c?(matches.length?c.title+" · "+matches.length+" 味已整理；来源逐味复核中。":c.title+"：当前尚无已核对的药物数据。可先浏览其他章节。"):"已建立 "+db.chapters.length+" 个章节目录；目前仅完成解表药样板，未录入的章节不显示虚构资料。";
- if(matches.length && !matches.some(h=>h.id===activeHerb))activeHerb=matches[0].id;
+ $("coverage").textContent=c?(c.title+" · 已录入详情 "+matches.length+" 味，待补充 "+pending.length+" 味；已入库内容仍按原书逐项复核。"):"已建立 "+db.chapters.length+" 章目录；全书药名索引已建立，只有部分药物已完成结构化初稿。";
+ if(matches.length && !matches.some(h=>h.id===activeHerb)&&!activePending)activeHerb=matches[0].id;
  if(!matches.length)activeHerb=null;
- $("herbList").innerHTML=matches.length?matches.map(h=>{
+ if(!activeHerb && !activePending && pending.length)activePending=pending[0].name;
+ $("herbList").innerHTML=matches.map(h=>{
   const cat=chapterById(h.chapterId),group=cat?.groups.find(g=>g.id===h.groupId);
   return '<button class="herb-row '+(h.id===activeHerb?"active":"")+'" data-herb="'+escapeHtml(h.id)+'"><strong>'+escapeHtml(h.name)+'</strong><small>'+escapeHtml(group?.title||cat?.title||"")+" · "+escapeHtml(h.nature)+" · "+escapeHtml(h.flavors.join("、"))+" · 归"+escapeHtml(h.meridians.join("、"))+'经</small></button>';
- }).join(""):'<p class="placeholder">没有符合条件的药物。试试清除搜索或筛选。</p>';
+ }).join("")+pending.map(x=>'<button class="herb-row '+(activePending===x.name?"active":"")+'" data-pending="'+escapeHtml(x.name)+'" data-pending-chapter="'+escapeHtml(x.chapterId)+'"><strong>'+escapeHtml(x.name)+'</strong><small>PDF第'+escapeHtml(x.pdfPage)+'页 · 仅药名目录，完整详情待核实</small></button>').join("")||'<p class="placeholder">没有符合条件的药物。试试清除搜索或筛选。</p>';
  $("herbList").querySelectorAll("[data-herb]").forEach(b=>b.onclick=()=>selectHerb(b.dataset.herb));
+ $("herbList").querySelectorAll("[data-pending]").forEach(b=>b.onclick=()=>{activePending=b.dataset.pending;activeHerb=null;activeChapter=b.dataset.pendingChapter;render();});
  renderDetail();renderExtraResults();
 }
-function selectHerb(id){activeHerb=id;const h=herbById(id);if(!h)return;if(activeChapter!=="all"&&activeChapter!==h.chapterId)activeChapter="all";renderNav();renderHerbList();if(window.innerWidth<740)$("detailPanel").scrollIntoView({behavior:"smooth",block:"start"});}
+function selectHerb(id){activePending=null;activeHerb=id;const h=herbById(id);if(!h)return;if(activeChapter!=="all"&&activeChapter!==h.chapterId)activeChapter="all";renderNav();renderHerbList();if(window.innerWidth<740)$("detailPanel").scrollIntoView({behavior:"smooth",block:"start"});}
 function linkedRecords(h){return records().filter(r=>attachedToHerb(r,h));}
 function recordCard(r){
  const tag=r.type==="question"?"错题":"笔记";
@@ -129,6 +137,7 @@ function renderProvenance(h){
 }
 function renderDetail(){
  let h=herbById(activeHerb);
+ if(!h && activePending){ const x=Object.values(db.catalog.chapters||{}).flat().find(z=>z.name===activePending&&z.chapterId===activeChapter); $("detailPanel").innerHTML='<h2>'+escapeHtml(activePending)+'</h2><p class="muted">药名已进入全书目录，PDF第'+escapeHtml(x?.pdfPage||"待查")+'页。尚未完成逐味核对，不展示可能错误的性味归经与用量。</p><p class="mini-note">资料正按原书整理，之后会自动关联到正式药物档案。</p>';return;}
  if(!h){$("detailPanel").innerHTML='<div class="placeholder">选择一味药，查看药性、药味、归经、功效及关联错题和笔记。</div>';return;}
  const chapter=chapterById(h.chapterId),group=chapter?.groups.find(g=>g.id===h.groupId),linked=linkedRecords(h),points=db.knowledge.filter(k=>(k.herbIds||[]).includes(h.id));
  $("detailPanel").innerHTML='<div class="detail-top"><div><span class="tag">'+escapeHtml(chapter?.title||"")+'</span><span class="tag">'+escapeHtml(group?.title||"")+'</span><h2>'+escapeHtml(h.name)+'</h2><span class="tag">'+escapeHtml(h.syllabusLevel||"考纲级别待核") +'</span></div><button class="ghost" id="copyHerb" type="button">复制资料</button></div>'+
@@ -288,6 +297,7 @@ async function init(){
   const results=await Promise.all(names.map(async n=>{const r=await fetch("./data/"+n+".json",{cache:"no-store"});if(!r.ok)throw Error(n+" 数据读取失败（"+r.status+"）");return r.json();}));
   names.forEach((name,i)=>{if(!Array.isArray(results[i]))throw Error(name+" 数据不是数组");db[name]=results[i];});
   if(new Set(db.herbs.map(x=>x.id)).size!==db.herbs.length)throw Error("药物 ID 重复");
+  const cr=await fetch("./data/catalog.json",{cache:"no-store"});if(!cr.ok)throw Error("药物目录加载失败");db.catalog=await cr.json();
   render();
  }catch(err){
  $("coverage").innerHTML='<strong class="error">数据加载失败：</strong>'+escapeHtml(err.message)+'。请从 GitHub Pages 或本地 HTTP 服务器打开，不要直接双击 file:// 页面。';

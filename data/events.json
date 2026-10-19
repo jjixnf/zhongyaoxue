@@ -34,5 +34,50 @@
     "entityId": "herb-mahuang",
     "count": 1,
     "label": "麻黄：分条核对主治、用量、炮制及相须配伍；修正运动员禁用，记录原书慎/禁用差异（整味仍待核全）"
+  },
+  {
+    "id": "import-20261019-index-catalog",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c06",
+    "count": 391,
+    "label": "资料库录入：全书药名目录（391条，待逐味复核）"
+  },
+  {
+    "id": "import-20261019-ch07",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c07",
+    "count": 55,
+    "label": "资料库录入：清热药（55条，待逐味复核）"
+  },
+  {
+    "id": "import-20261019-ch08",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c08",
+    "count": 12,
+    "label": "资料库录入：泻下药（12条，待逐味复核）"
+  },
+  {
+    "id": "import-20261019-ch09",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c09",
+    "count": 22,
+    "label": "资料库录入：祛风湿药（22条，待逐味复核）"
+  },
+  {
+    "id": "import-20261019-ch10",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c10",
+    "count": 8,
+    "label": "资料库录入：化湿药（8条，待逐味复核）"
   }
 ]

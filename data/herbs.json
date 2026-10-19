@@ -29,38 +29,72 @@
       "indications": {
         "text": "风寒表证：可用于风寒表证，发汗作用较强。\n胸闷喘咳：肺气壅遏而喘咳、胸闷时，麻黄是本书强调的重要用药。\n风水水肿：宣降肺气以利水。\n其他病证：还包括风寒痹证、阴疽和痰核。",
         "items": [
-          {"label": "风寒表证", "text": "可用于风寒表证，发汗作用较强。"},
-          {"label": "胸闷喘咳", "text": "肺气壅遏而喘咳、胸闷时，麻黄是本书强调的重要用药。"},
-          {"label": "风水水肿", "text": "宣降肺气以利水。"},
-          {"label": "其他病证", "text": "还包括风寒痹证、阴疽和痰核。"}
+          {
+            "label": "风寒表证",
+            "text": "可用于风寒表证，发汗作用较强。"
+          },
+          {
+            "label": "胸闷喘咳",
+            "text": "肺气壅遏而喘咳、胸闷时，麻黄是本书强调的重要用药。"
+          },
+          {
+            "label": "风水水肿",
+            "text": "宣降肺气以利水。"
+          },
+          {
+            "label": "其他病证",
+            "text": "还包括风寒痹证、阴疽和痰核。"
+          }
         ],
         "source": {
           "title": "学霸笔记—中药学",
           "printPage": 210,
           "pdfPage": 24,
-          "verification": {"method": "pdf-visual", "verifiedAt": "2026-10-19", "scope": "本页麻黄主治病证栏逐项图像核对。"}
+          "verification": {
+            "method": "pdf-visual",
+            "verifiedAt": "2026-10-19",
+            "scope": "本页麻黄主治病证栏逐项图像核对。"
+          }
         },
         "reviewStatus": "已复核"
       },
       "usage": {
         "text": "用量与给药：煎服，2～10g。\n煎煮要求：生用以发汗解表时，不宜久煎。",
         "items": [
-          {"label": "用量与给药", "text": "煎服，2～10g。"},
-          {"label": "煎煮要求", "text": "生用以发汗解表时，不宜久煎。"}
+          {
+            "label": "用量与给药",
+            "text": "煎服，2～10g。"
+          },
+          {
+            "label": "煎煮要求",
+            "text": "生用以发汗解表时，不宜久煎。"
+          }
         ],
         "source": {
           "title": "学霸笔记—中药学",
           "printPage": 210,
           "pdfPage": 24,
-          "verification": {"method": "pdf-visual", "verifiedAt": "2026-10-19", "scope": "本页麻黄用量、煎服及生用不宜久煎的条件。原书此处未列固定分钟数。"}
+          "verification": {
+            "method": "pdf-visual",
+            "verifiedAt": "2026-10-19",
+            "scope": "本页麻黄用量、煎服及生用不宜久煎的条件。原书此处未列固定分钟数。"
+          }
         },
         "reviewStatus": "已复核"
       },
       "cautions": {
         "text": "本条表格列为慎用：表虚自汗、阴虚盗汗、肺肾虚喘，以及失眠、高血压患者。\n运动员禁用：本书将运动员明确列为禁用人群。\n教材差异（待核）：印刷198页将表虚自汗、阴虚盗汗、肺肾虚喘均列为麻黄禁止使用的情况，同页另处还将前两类列为忌用；印刷210页表格却将这三类列为慎用。两页用语有差异，暂保留各处结论，尚未核清。",
         "items": [
-          {"label": "本条表格列为慎用", "text": "表虚自汗、阴虚盗汗、肺肾虚喘，以及失眠、高血压患者。", "reviewStatus": "已核对原书表格，存在跨页差异"},
-          {"label": "运动员禁用", "text": "本书将运动员明确列为禁用人群。", "reviewStatus": "已复核"},
+          {
+            "label": "本条表格列为慎用",
+            "text": "表虚自汗、阴虚盗汗、肺肾虚喘，以及失眠、高血压患者。",
+            "reviewStatus": "已核对原书表格，存在跨页差异"
+          },
+          {
+            "label": "运动员禁用",
+            "text": "本书将运动员明确列为禁用人群。",
+            "reviewStatus": "已复核"
+          },
           {
             "label": "教材差异（待核）",
             "text": "印刷198页将表虚自汗、阴虚盗汗、肺肾虚喘均列为麻黄禁止使用的情况，同页另处还将前两类列为忌用；印刷210页表格却将这三类列为慎用。两页用语有差异，暂保留各处结论，尚未核清。",
@@ -68,7 +102,11 @@
               "title": "学霸笔记—中药学",
               "printPage": 198,
               "pdfPage": 12,
-              "verification": {"method": "pdf-visual", "verifiedAt": "2026-10-19", "scope": "证候用药禁忌栏两处麻黄表述已图像比对；与印刷210页的慎用措辞冲突尚未解决。"}
+              "verification": {
+                "method": "pdf-visual",
+                "verifiedAt": "2026-10-19",
+                "scope": "证候用药禁忌栏两处麻黄表述已图像比对；与印刷210页的慎用措辞冲突尚未解决。"
+              }
             },
             "reviewStatus": "待差异核对"
           }
@@ -77,14 +115,21 @@
           "title": "学霸笔记—中药学",
           "printPage": 210,
           "pdfPage": 24,
-          "verification": {"method": "pdf-visual", "verifiedAt": "2026-10-19", "scope": "本页麻黄慎用与禁用栏已图像核对；与印刷198页有差异，不能视为该字段结论已终审。"}
+          "verification": {
+            "method": "pdf-visual",
+            "verifiedAt": "2026-10-19",
+            "scope": "本页麻黄慎用与禁用栏已图像核对；与印刷198页有差异，不能视为该字段结论已终审。"
+          }
         },
         "reviewStatus": "待差异核对"
       },
       "processing": {
         "text": "生用：用于发汗解表。\n平喘的用法选择：平喘可以炙用，也可以生用。\n蜜炙：用于润肺、止咳、平喘；本书列出的适用情形是表证已经解除而仍有气喘、咳嗽。\n捣绒：制成麻黄绒后作用较缓，适用于小儿、老人和体虚者。",
         "items": [
-          {"label": "生用", "text": "用于发汗解表。"},
+          {
+            "label": "生用",
+            "text": "用于发汗解表。"
+          },
           {
             "label": "平喘的用法选择",
             "text": "平喘可以炙用，也可以生用。",
@@ -92,30 +137,51 @@
               "title": "学霸笔记—中药学",
               "printPage": 192,
               "pdfPage": 6,
-              "verification": {"method": "pdf-visual", "verifiedAt": "2026-10-19", "scope": "炮制目的表中麻黄用于平喘时可炙用或生用的说明。"}
+              "verification": {
+                "method": "pdf-visual",
+                "verifiedAt": "2026-10-19",
+                "scope": "炮制目的表中麻黄用于平喘时可炙用或生用的说明。"
+              }
             }
           },
-          {"label": "蜜炙", "text": "用于润肺、止咳、平喘；本书列出的适用情形是表证已经解除而仍有气喘、咳嗽。"},
-          {"label": "捣绒", "text": "制成麻黄绒后作用较缓，适用于小儿、老人和体虚者。"}
+          {
+            "label": "蜜炙",
+            "text": "用于润肺、止咳、平喘；本书列出的适用情形是表证已经解除而仍有气喘、咳嗽。"
+          },
+          {
+            "label": "捣绒",
+            "text": "制成麻黄绒后作用较缓，适用于小儿、老人和体虚者。"
+          }
         ],
         "source": {
           "title": "学霸笔记—中药学",
           "printPage": 210,
           "pdfPage": 24,
-          "verification": {"method": "pdf-visual", "verifiedAt": "2026-10-19", "scope": "本页麻黄生用、蜜炙及捣绒的用途、条件和人群；平喘可炙用或生用另据印刷192页。"}
+          "verification": {
+            "method": "pdf-visual",
+            "verifiedAt": "2026-10-19",
+            "scope": "本页麻黄生用、蜜炙及捣绒的用途、条件和人群；平喘可炙用或生用另据印刷192页。"
+          }
         },
         "reviewStatus": "已复核"
       },
       "pairings": {
         "text": "麻黄配桂枝：本书列为相须配伍的例子，即功效相近的药物配合以增强原有疗效；该处未给此组合的具体剂量或方名。",
         "items": [
-          {"label": "麻黄配桂枝", "text": "本书列为相须配伍的例子，即功效相近的药物配合以增强原有疗效；该处未给此组合的具体剂量或方名。"}
+          {
+            "label": "麻黄配桂枝",
+            "text": "本书列为相须配伍的例子，即功效相近的药物配合以增强原有疗效；该处未给此组合的具体剂量或方名。"
+          }
         ],
         "source": {
           "title": "学霸笔记—中药学",
           "printPage": 197,
           "pdfPage": 11,
-          "verification": {"method": "pdf-visual", "verifiedAt": "2026-10-19", "scope": "相须定义及麻黄配桂枝示例；未扩写该页未列的剂量、方名或辨析。"}
+          "verification": {
+            "method": "pdf-visual",
+            "verifiedAt": "2026-10-19",
+            "scope": "相须定义及麻黄配桂枝示例；未扩写该页未列的剂量、方名或辨析。"
+          }
         },
         "reviewStatus": "已复核"
       }
@@ -897,5 +963,4146 @@
     },
     "reviewStatus": "待逐味复核",
     "syllabusLevel": "常用中药"
+  },
+  {
+    "id": "herb-c07-001",
+    "name": "石膏",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "大寒",
+    "flavors": [
+      "甘",
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "清热泻火、除烦止渴；煅用收湿生肌、敛疮止血",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 214,
+      "pdfPage": 28
+    },
+    "details": {
+      "indications": {
+        "text": "高热烦渴\n肺热喘咳\n胃火牙痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 214,
+          "pdfPage": 28
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "15～60g，先煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 214,
+          "pdfPage": 28
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-002",
+    "name": "知母",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "寒",
+    "flavors": [
+      "苦",
+      "甘"
+    ],
+    "meridians": [
+      "肺",
+      "胃",
+      "肾"
+    ],
+    "effects": "清热泻火、滋阴润燥、生津止渴",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 215,
+      "pdfPage": 29
+    },
+    "details": {
+      "indications": {
+        "text": "高热烦渴\n燥咳\n骨蒸\n消渴\n阴虚便秘",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-003",
+    "name": "芦根",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "清热泻火、生津止渴、除烦止呕、利尿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 215,
+      "pdfPage": 29
+    },
+    "details": {
+      "indications": {
+        "text": "热病烦渴\n胃热呕逆\n肺热咳嗽\n热淋",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "15～30g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-004",
+    "name": "天花粉",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "微寒",
+    "flavors": [
+      "甘",
+      "微苦"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "清热泻火、生津止渴、消肿排脓",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 215,
+      "pdfPage": 29
+    },
+    "details": {
+      "indications": {
+        "text": "热病烦渴\n燥咳\n消渴\n疮痈",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "10～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-005",
+    "name": "栀子",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "肺",
+      "三焦"
+    ],
+    "effects": "泻火除烦、清热利湿、凉血解毒、消肿止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 215,
+      "pdfPage": 29
+    },
+    "details": {
+      "indications": {
+        "text": "热病心烦\n黄疸\n热淋\n血热出血",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-006",
+    "name": "夏枯草",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "寒",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "胆"
+    ],
+    "effects": "清肝泻火、明目、散结消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 215,
+      "pdfPage": 29
+    },
+    "details": {
+      "indications": {
+        "text": "目珠夜痛\n瘰疬\n乳癖\n肝火眩晕",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-007",
+    "name": "决明子",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "微寒",
+    "flavors": [
+      "甘",
+      "苦",
+      "咸"
+    ],
+    "meridians": [
+      "肝",
+      "大肠"
+    ],
+    "effects": "清热明目、润肠通便、清肝平肝",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 215,
+      "pdfPage": 29
+    },
+    "details": {
+      "indications": {
+        "text": "目赤\n头痛眩晕\n便秘",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 215,
+          "pdfPage": 29
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-008",
+    "name": "淡竹叶",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "寒",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "心",
+      "胃",
+      "小肠"
+    ],
+    "effects": "清热泻火、除烦止渴、利尿通淋",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 216,
+      "pdfPage": 30
+    },
+    "details": {
+      "indications": {
+        "text": "热病烦渴\n口舌生疮\n热淋",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-009",
+    "name": "密蒙花",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "微寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "清热泻火、养肝明目、退翳",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 216,
+      "pdfPage": 30
+    },
+    "details": {
+      "indications": {
+        "text": "目赤\n目翳\n肝虚目暗",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～9g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-010",
+    "name": "青葙子",
+    "chapterId": "c07",
+    "groupId": "c07-01",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "清肝泻火、明目退翳",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 216,
+      "pdfPage": 30
+    },
+    "details": {
+      "indications": {
+        "text": "目赤翳膜\n肝火眩晕",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-011",
+    "name": "黄芩",
+    "chapterId": "c07",
+    "groupId": "c07-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "胆",
+      "脾",
+      "小肠"
+    ],
+    "effects": "清热燥湿、泻火解毒、止血、安胎",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 216,
+      "pdfPage": 30
+    },
+    "details": {
+      "indications": {
+        "text": "湿热泻痢\n肺热咳嗽\n血热出血\n胎动不安",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-012",
+    "name": "黄连",
+    "chapterId": "c07",
+    "groupId": "c07-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "脾",
+      "胃",
+      "肝",
+      "胆",
+      "大肠"
+    ],
+    "effects": "清热燥湿、泻火解毒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 216,
+      "pdfPage": 30
+    },
+    "details": {
+      "indications": {
+        "text": "湿热痞满\n泻痢\n心火烦躁\n胃火牙痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "2～5g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-013",
+    "name": "黄柏",
+    "chapterId": "c07",
+    "groupId": "c07-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肾",
+      "膀胱"
+    ],
+    "effects": "清热燥湿、泻火解毒、除骨蒸",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 216,
+      "pdfPage": 30
+    },
+    "details": {
+      "indications": {
+        "text": "下焦湿热\n湿疮\n骨蒸",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 216,
+          "pdfPage": 30
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-014",
+    "name": "龙胆",
+    "chapterId": "c07",
+    "groupId": "c07-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "胆"
+    ],
+    "effects": "清热燥湿、泻肝胆火",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 217,
+      "pdfPage": 31
+    },
+    "details": {
+      "indications": {
+        "text": "湿热黄疸\n阴痒\n目赤\n胁痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～6g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-015",
+    "name": "秦皮",
+    "chapterId": "c07",
+    "groupId": "c07-02",
+    "nature": "寒",
+    "flavors": [
+      "苦",
+      "涩"
+    ],
+    "meridians": [
+      "肝",
+      "胆",
+      "大肠"
+    ],
+    "effects": "清热燥湿、收涩止痢、止带、明目",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 217,
+      "pdfPage": 31
+    },
+    "details": {
+      "indications": {
+        "text": "湿热痢\n带下\n目赤",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-016",
+    "name": "苦参",
+    "chapterId": "c07",
+    "groupId": "c07-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "肝",
+      "胃",
+      "大肠",
+      "膀胱"
+    ],
+    "effects": "清热燥湿、杀虫止痒、利尿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 217,
+      "pdfPage": 31
+    },
+    "details": {
+      "indications": {
+        "text": "湿热痢\n湿疹\n阴痒\n热淋",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "4.5～9g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-017",
+    "name": "白鲜皮",
+    "chapterId": "c07",
+    "groupId": "c07-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "膀胱"
+    ],
+    "effects": "清热燥湿、祛风解毒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 217,
+      "pdfPage": 31
+    },
+    "details": {
+      "indications": {
+        "text": "疮疹\n黄疸\n湿热痹",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "5～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-018",
+    "name": "金银花",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "肺",
+      "心",
+      "胃"
+    ],
+    "effects": "清热解毒、疏散风热、凉血止痢",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 217,
+      "pdfPage": 31
+    },
+    "details": {
+      "indications": {
+        "text": "疮痈\n风热感冒\n热毒血痢",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-019",
+    "name": "连翘",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "心",
+      "小肠"
+    ],
+    "effects": "清热解毒、消肿散结、疏散风热、清心利尿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 217,
+      "pdfPage": 31
+    },
+    "details": {
+      "indications": {
+        "text": "痈肿\n瘰疬\n风热感冒",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-020",
+    "name": "大青叶",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "大寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "胃"
+    ],
+    "effects": "清热解毒、凉血消斑、利咽消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 217,
+      "pdfPage": 31
+    },
+    "details": {
+      "indications": {
+        "text": "温毒发斑\n咽痛\n丹毒",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 217,
+          "pdfPage": 31
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-021",
+    "name": "板蓝根",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "胃"
+    ],
+    "effects": "清热解毒、凉血利咽",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 218,
+      "pdfPage": 32
+    },
+    "details": {
+      "indications": {
+        "text": "温毒发斑\n咽肿\n痄腮",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-022",
+    "name": "青黛",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "咸"
+    ],
+    "meridians": [
+      "肝",
+      "肺"
+    ],
+    "effects": "清热解毒、凉血消斑、泻火定惊",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 218,
+      "pdfPage": 32
+    },
+    "details": {
+      "indications": {
+        "text": "热毒发斑\n咽痛\n惊痫",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "丸散1～3g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-023",
+    "name": "贯众",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "胃"
+    ],
+    "effects": "清热解毒、止血、驱虫",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 218,
+      "pdfPage": 32
+    },
+    "details": {
+      "indications": {
+        "text": "疮毒\n血热出血\n虫积",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "5～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-024",
+    "name": "蒲公英",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦",
+      "甘"
+    ],
+    "meridians": [
+      "肝",
+      "胃"
+    ],
+    "effects": "清热解毒、消肿散结、利湿通淋、清肝明目",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 218,
+      "pdfPage": 32
+    },
+    "details": {
+      "indications": {
+        "text": "乳痈\n热淋\n目赤",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "10～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-025",
+    "name": "紫花地丁",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "心",
+      "肝"
+    ],
+    "effects": "清热解毒、凉血消肿、消痈散结",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 218,
+      "pdfPage": 32
+    },
+    "details": {
+      "indications": {
+        "text": "疔疮\n蛇伤",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "15～30g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-026",
+    "name": "重楼",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "清热解毒、消肿止痛、凉肝定惊、化瘀止血",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 218,
+      "pdfPage": 32
+    },
+    "details": {
+      "indications": {
+        "text": "痈疮\n跌打伤痛\n惊风",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-027",
+    "name": "鱼腥草",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "微寒",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺"
+    ],
+    "effects": "清热解毒、消痈排脓、利尿通淋、清热除湿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 218,
+      "pdfPage": 32
+    },
+    "details": {
+      "indications": {
+        "text": "肺痈\n热淋\n湿热泻痢",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "15～25g，不宜久煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-028",
+    "name": "山豆根",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "清热解毒、消肿利咽",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 218,
+      "pdfPage": 32
+    },
+    "details": {
+      "indications": {
+        "text": "咽肿\n牙痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～6g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 218,
+          "pdfPage": 32
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-029",
+    "name": "白头翁",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "胃",
+      "大肠"
+    ],
+    "effects": "清热解毒、凉血止痢、清热祛湿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 219,
+      "pdfPage": 33
+    },
+    "details": {
+      "indications": {
+        "text": "热毒血痢",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-030",
+    "name": "射干",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肺"
+    ],
+    "effects": "清热解毒、消痰、利咽",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 219,
+      "pdfPage": 33
+    },
+    "details": {
+      "indications": {
+        "text": "咽肿\n痰盛咳喘",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-031",
+    "name": "土茯苓",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "平",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "肝",
+      "胃"
+    ],
+    "effects": "解毒、除湿、通利关节",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 219,
+      "pdfPage": 33
+    },
+    "details": {
+      "indications": {
+        "text": "湿热疮毒\n关节不利",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "15～60g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-032",
+    "name": "熊胆粉",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "胆",
+      "心"
+    ],
+    "effects": "清热解毒、息风止痉、清肝明目",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 219,
+      "pdfPage": 33
+    },
+    "details": {
+      "indications": {
+        "text": "惊风\n目赤\n疮毒",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "丸散0.25～0.5g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-033",
+    "name": "穿心莲",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "肺",
+      "大肠",
+      "膀胱"
+    ],
+    "effects": "清热解毒、凉血消肿、清热燥湿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 219,
+      "pdfPage": 33
+    },
+    "details": {
+      "indications": {
+        "text": "温病\n湿热泻痢\n疮痈",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-034",
+    "name": "野菊花",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "微寒",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "心",
+      "肝"
+    ],
+    "effects": "清热解毒、泻火平肝",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 219,
+      "pdfPage": 33
+    },
+    "details": {
+      "indications": {
+        "text": "痈肿\n咽痛\n肝火",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-035",
+    "name": "白花蛇舌草",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "微苦",
+      "甘"
+    ],
+    "meridians": [
+      "胃",
+      "小肠"
+    ],
+    "effects": "清热解毒、消痈、利湿通淋",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 219,
+      "pdfPage": 33
+    },
+    "details": {
+      "indications": {
+        "text": "痈肿\n热淋",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "15～60g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-036",
+    "name": "败酱草",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "微寒",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "胃",
+      "大肠",
+      "肝"
+    ],
+    "effects": "清热解毒、消痈排脓、祛瘀止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 219,
+      "pdfPage": 33
+    },
+    "details": {
+      "indications": {
+        "text": "肠痈\n肺痈\n产后瘀痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 219,
+          "pdfPage": 33
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-037",
+    "name": "大血藤",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "平",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "大肠",
+      "肝"
+    ],
+    "effects": "清热解毒、活血、祛风止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 220,
+      "pdfPage": 34
+    },
+    "details": {
+      "indications": {
+        "text": "肠痈\n跌扑损伤\n风湿痹",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-038",
+    "name": "马勃",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "平",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺"
+    ],
+    "effects": "清肺、解毒利咽、止血",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 220,
+      "pdfPage": 34
+    },
+    "details": {
+      "indications": {
+        "text": "咽肿失音\n出血",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "2～6g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-039",
+    "name": "马齿苋",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "酸"
+    ],
+    "meridians": [
+      "肝",
+      "大肠"
+    ],
+    "effects": "清热解毒、凉血止血、止痢、利尿通淋",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 220,
+      "pdfPage": 34
+    },
+    "details": {
+      "indications": {
+        "text": "血痢\n疮痈\n血热出血",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-040",
+    "name": "鸦胆子",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "大肠",
+      "肝"
+    ],
+    "effects": "清热解毒、止痢、截疟、腐蚀赘疣",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 220,
+      "pdfPage": 34
+    },
+    "details": {
+      "indications": {
+        "text": "热毒血痢\n疟疾\n赘疣",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "0.5～2g，不入煎剂",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-041",
+    "name": "漏芦",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "胃"
+    ],
+    "effects": "清热解毒、消痈散结、通经下乳、舒筋通脉",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 220,
+      "pdfPage": 34
+    },
+    "details": {
+      "indications": {
+        "text": "乳痈\n乳汁不通\n痹痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "5～9g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-042",
+    "name": "山慈菇",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "凉",
+    "flavors": [
+      "甘",
+      "微辛"
+    ],
+    "meridians": [
+      "肝",
+      "脾"
+    ],
+    "effects": "清热解毒、化痰散结",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 220,
+      "pdfPage": 34
+    },
+    "details": {
+      "indications": {
+        "text": "痈疮\n痰核",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～9g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-043",
+    "name": "半边莲",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "平",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "心",
+      "小肠",
+      "肺"
+    ],
+    "effects": "清热解毒、利尿消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 220,
+      "pdfPage": 34
+    },
+    "details": {
+      "indications": {
+        "text": "痈疮\n蛇伤\n水肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "10～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 220,
+          "pdfPage": 34
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-044",
+    "name": "白蔹",
+    "chapterId": "c07",
+    "groupId": "c07-03",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "胃"
+    ],
+    "effects": "清热解毒、消痈散结、敛疮生肌",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 221,
+      "pdfPage": 35
+    },
+    "details": {
+      "indications": {
+        "text": "痈疮\n溃疡不敛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "5～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-045",
+    "name": "生地黄",
+    "chapterId": "c07",
+    "groupId": "c07-04",
+    "nature": "寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "心",
+      "肝",
+      "肾"
+    ],
+    "effects": "清热凉血、养阴生津",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 221,
+      "pdfPage": 35
+    },
+    "details": {
+      "indications": {
+        "text": "营血分热\n阴虚发热\n津伤",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "10～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-046",
+    "name": "玄参",
+    "chapterId": "c07",
+    "groupId": "c07-04",
+    "nature": "微寒",
+    "flavors": [
+      "甘",
+      "苦",
+      "咸"
+    ],
+    "meridians": [
+      "肺",
+      "胃",
+      "肾"
+    ],
+    "effects": "清热凉血、滋阴降火、解毒散结",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 221,
+      "pdfPage": 35
+    },
+    "details": {
+      "indications": {
+        "text": "营血热\n阴虚热\n咽痛\n瘰疬",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-047",
+    "name": "牡丹皮",
+    "chapterId": "c07",
+    "groupId": "c07-04",
+    "nature": "微寒",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "心",
+      "肝",
+      "肾"
+    ],
+    "effects": "清热凉血、活血化瘀、散瘀消痈",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 221,
+      "pdfPage": 35
+    },
+    "details": {
+      "indications": {
+        "text": "血热\n骨蒸\n瘀血经闭",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-048",
+    "name": "赤芍",
+    "chapterId": "c07",
+    "groupId": "c07-04",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "清热凉血、散瘀止痛、清肝泻火",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 221,
+      "pdfPage": 35
+    },
+    "details": {
+      "indications": {
+        "text": "血热\n瘀痛\n目赤",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 221,
+          "pdfPage": 35
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-049",
+    "name": "水牛角",
+    "chapterId": "c07",
+    "groupId": "c07-04",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "肝"
+    ],
+    "effects": "清热凉血、解毒、定惊",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 222,
+      "pdfPage": 36
+    },
+    "details": {
+      "indications": {
+        "text": "高热神昏\n血热\n疮痈",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "15～30g，先煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-050",
+    "name": "紫草",
+    "chapterId": "c07",
+    "groupId": "c07-04",
+    "nature": "寒",
+    "flavors": [
+      "甘",
+      "咸"
+    ],
+    "meridians": [
+      "心",
+      "肝"
+    ],
+    "effects": "清热凉血、活血解毒、透疹消斑",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 222,
+      "pdfPage": 36
+    },
+    "details": {
+      "indications": {
+        "text": "血热斑疹\n烫伤",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "5～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-051",
+    "name": "青蒿",
+    "chapterId": "c07",
+    "groupId": "c07-05",
+    "nature": "寒",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "肝",
+      "胆"
+    ],
+    "effects": "清虚热、除骨蒸、解暑热、截疟、退黄",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 222,
+      "pdfPage": 36
+    },
+    "details": {
+      "indications": {
+        "text": "阴分伏热\n骨蒸\n暑热\n疟疾",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "6～12g，后下",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-052",
+    "name": "白薇",
+    "chapterId": "c07",
+    "groupId": "c07-05",
+    "nature": "寒",
+    "flavors": [
+      "苦",
+      "咸"
+    ],
+    "meridians": [
+      "胃",
+      "肝",
+      "肾"
+    ],
+    "effects": "清虚热、凉血、利尿通淋、解毒疗疮",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 222,
+      "pdfPage": 36
+    },
+    "details": {
+      "indications": {
+        "text": "虚热\n产后发热\n热淋",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "5～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-053",
+    "name": "地骨皮",
+    "chapterId": "c07",
+    "groupId": "c07-05",
+    "nature": "寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "肺",
+      "肝",
+      "肾"
+    ],
+    "effects": "凉血除蒸、清肺降火、生津止渴",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 222,
+      "pdfPage": 36
+    },
+    "details": {
+      "indications": {
+        "text": "骨蒸\n肺热咳嗽\n消渴",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-054",
+    "name": "银柴胡",
+    "chapterId": "c07",
+    "groupId": "c07-05",
+    "nature": "微寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "肝",
+      "胃"
+    ],
+    "effects": "清虚热、除疳热",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 222,
+      "pdfPage": 36
+    },
+    "details": {
+      "indications": {
+        "text": "阴虚发热\n小儿疳热",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c07-055",
+    "name": "胡黄连",
+    "chapterId": "c07",
+    "groupId": "c07-05",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "胃",
+      "大肠"
+    ],
+    "effects": "退虚热、除疳热、清湿热",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 222,
+      "pdfPage": 36
+    },
+    "details": {
+      "indications": {
+        "text": "虚热\n小儿疳热\n湿热痢",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      },
+      "usage": {
+        "text": "3～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 222,
+          "pdfPage": 36
+        },
+        "reviewStatus": "待原页复核"
+      }
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-001",
+    "name": "大黄",
+    "chapterId": "c08",
+    "groupId": "c08-01",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "大肠",
+      "肝",
+      "心包"
+    ],
+    "effects": "泻下攻积、清热泻火、凉血解毒、逐瘀通经、利湿退黄",
+    "details": {
+      "indications": {
+        "text": "实热便秘\n血热出血\n痈肿\n瘀血\n湿热黄疸",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 37,
+          "printPage": 223
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～15g；用于泻下通常后下",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 37,
+          "printPage": 223
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 37,
+      "printPage": 223
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-002",
+    "name": "芒硝",
+    "chapterId": "c08",
+    "groupId": "c08-01",
+    "nature": "寒",
+    "flavors": [
+      "咸",
+      "苦"
+    ],
+    "meridians": [
+      "胃",
+      "大肠"
+    ],
+    "effects": "泻下通便、润燥软坚、清火消肿",
+    "details": {
+      "indications": {
+        "text": "实热便秘\n燥屎坚结\n咽痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 37,
+          "printPage": 223
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～12g，溶化兑服",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 37,
+          "printPage": 223
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 37,
+      "printPage": 223
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-003",
+    "name": "番泻叶",
+    "chapterId": "c08",
+    "groupId": "c08-01",
+    "nature": "寒",
+    "flavors": [
+      "甘",
+      "苦"
+    ],
+    "meridians": [
+      "大肠"
+    ],
+    "effects": "泻热行滞、通便、利水",
+    "details": {
+      "indications": {
+        "text": "热结便秘\n水肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 37,
+          "printPage": 223
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "2～6g，后下或开水泡服",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 37,
+          "printPage": 223
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 37,
+      "printPage": 223
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-004",
+    "name": "芦荟",
+    "chapterId": "c08",
+    "groupId": "c08-01",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "胃",
+      "大肠"
+    ],
+    "effects": "泻下通便、清肝泻火、杀虫疗疳",
+    "details": {
+      "indications": {
+        "text": "热结便秘\n肝火\n小儿疳积",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 37,
+          "printPage": 223
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "2～5g，入丸散",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 37,
+          "printPage": 223
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 37,
+      "printPage": 223
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-005",
+    "name": "火麻仁",
+    "chapterId": "c08",
+    "groupId": "c08-02",
+    "nature": "平",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "大肠"
+    ],
+    "effects": "润肠通便、滋养补虚",
+    "details": {
+      "indications": {
+        "text": "津枯肠燥便秘",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "10～15g，打碎入煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 38,
+      "printPage": 224
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-006",
+    "name": "郁李仁",
+    "chapterId": "c08",
+    "groupId": "c08-02",
+    "nature": "平",
+    "flavors": [
+      "辛",
+      "苦",
+      "甘"
+    ],
+    "meridians": [
+      "脾",
+      "大肠",
+      "小肠"
+    ],
+    "effects": "润肠通便、下气利水",
+    "details": {
+      "indications": {
+        "text": "肠燥便秘\n水肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～10g，打碎入煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 38,
+      "printPage": 224
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-007",
+    "name": "甘遂",
+    "chapterId": "c08",
+    "groupId": "c08-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "肾",
+      "大肠"
+    ],
+    "effects": "泻水逐饮、消肿散结",
+    "details": {
+      "indications": {
+        "text": "水饮停聚\n胸腹积水\n疮痈",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "内服多入丸散，0.5～1.5g，醋炙",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 38,
+      "printPage": 224
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-008",
+    "name": "京大戟",
+    "chapterId": "c08",
+    "groupId": "c08-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "脾",
+      "肾"
+    ],
+    "effects": "泻水逐饮、消肿散结",
+    "details": {
+      "indications": {
+        "text": "水肿胀满\n悬饮\n痈肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "煎服1.5～3g；丸散每次约1g，内服醋炙",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 38,
+      "printPage": 224
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-009",
+    "name": "芫花",
+    "chapterId": "c08",
+    "groupId": "c08-03",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "脾",
+      "肾"
+    ],
+    "effects": "泻水逐饮、祛痰止咳、杀虫疗疮",
+    "details": {
+      "indications": {
+        "text": "胸腹积水\n痰饮\n疮疥",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "煎服1.5～3g；丸散0.6～0.9g，内服醋炙",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 38,
+      "printPage": 224
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-010",
+    "name": "牵牛子",
+    "chapterId": "c08",
+    "groupId": "c08-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "肾",
+      "大肠"
+    ],
+    "effects": "泻水通便、消痰涤饮、杀虫攻积",
+    "details": {
+      "indications": {
+        "text": "水肿\n便秘\n痰饮\n虫积",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "煎服3～6g；丸散1.5～3g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 38,
+          "printPage": 224
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 38,
+      "printPage": 224
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-011",
+    "name": "巴豆霜",
+    "chapterId": "c08",
+    "groupId": "c08-03",
+    "nature": "热",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "胃",
+      "大肠"
+    ],
+    "effects": "峻下冷积、逐水退肿、豁痰利咽、蚀疮",
+    "details": {
+      "indications": {
+        "text": "冷积便秘\n水肿\n喉痹",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "0.1～0.3g，多入丸散",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 39,
+      "printPage": 225
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c08-012",
+    "name": "商陆",
+    "chapterId": "c08",
+    "groupId": "c08-03",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "脾",
+      "肾",
+      "大肠"
+    ],
+    "effects": "逐水消肿、通利二便、解毒散结",
+    "details": {
+      "indications": {
+        "text": "水肿\n疮痈",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～9g，内服醋炙；外用生品",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 39,
+      "printPage": 225
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-001",
+    "name": "独活",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "微温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肾",
+      "膀胱"
+    ],
+    "effects": "祛风除湿、通痹止痛、解表",
+    "details": {
+      "indications": {
+        "text": "风寒湿痹\n腰膝疼痛\n外感风寒夹湿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 39,
+      "printPage": 225
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-002",
+    "name": "威灵仙",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "咸"
+    ],
+    "meridians": [
+      "膀胱"
+    ],
+    "effects": "祛风湿、通经络、止痛、消骨鲠",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n肢体麻木\n骨鲠",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 39,
+      "printPage": 225
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-003",
+    "name": "木瓜",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "温",
+    "flavors": [
+      "酸"
+    ],
+    "meridians": [
+      "肝",
+      "脾"
+    ],
+    "effects": "舒筋活络、和胃化湿、消食、生津止渴",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n筋脉拘挛\n吐泻转筋",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～9g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 39,
+          "printPage": 225
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 39,
+      "printPage": 225
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-004",
+    "name": "蕲蛇",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "温",
+    "flavors": [
+      "甘",
+      "咸"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "祛风、通络、止痉",
+    "details": {
+      "indications": {
+        "text": "风湿顽痹\n中风口眼㖞斜\n破伤风",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "煎服3～9g；亦可入丸散",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 40,
+      "printPage": 226
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-005",
+    "name": "乌梢蛇",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "平",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "祛风、通络、止痉",
+    "details": {
+      "indications": {
+        "text": "风湿顽痹\n中风\n破伤风",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～12g；研末每次2～3g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 40,
+      "printPage": 226
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-006",
+    "name": "川乌",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "热",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "脾",
+      "肝",
+      "肾"
+    ],
+    "effects": "祛风除湿、温经止痛",
+    "details": {
+      "indications": {
+        "text": "风寒湿痹\n关节冷痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "制品1.5～3g，先煎久煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 40,
+      "printPage": 226
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-007",
+    "name": "草乌",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "热",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "脾",
+      "肝",
+      "肾"
+    ],
+    "effects": "祛风除湿、温经止痛",
+    "details": {
+      "indications": {
+        "text": "风寒湿痹\n关节冷痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "制品1.5～3g，先煎久煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 40,
+      "printPage": 226
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-008",
+    "name": "海风藤",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "微温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "祛风除湿、通络止痛",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n筋脉拘挛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 40,
+      "printPage": 226
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-009",
+    "name": "青风藤",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "平",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "肝",
+      "脾"
+    ],
+    "effects": "祛风湿、通经络、利小便",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n水肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 40,
+      "printPage": 226
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-010",
+    "name": "昆明山海棠",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "微温",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "肝",
+      "脾",
+      "肾"
+    ],
+    "effects": "祛风湿、活血止痛、续筋接骨",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n跌打损伤",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "根6～15g；茎枝20～30g，先煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 40,
+      "printPage": 226
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-011",
+    "name": "穿山龙",
+    "chapterId": "c09",
+    "groupId": "c09-01",
+    "nature": "温",
+    "flavors": [
+      "甘",
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "肾",
+      "肺"
+    ],
+    "effects": "祛风除湿、舒筋通络、活血止痛、止咳平喘",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n跌打损伤\n咳喘",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 40,
+          "printPage": 226
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 40,
+      "printPage": 226
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-012",
+    "name": "秦艽",
+    "chapterId": "c09",
+    "groupId": "c09-02",
+    "nature": "平",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "胃",
+      "肝",
+      "胆"
+    ],
+    "effects": "祛风湿、清湿热、舒筋络、退虚热",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n骨蒸潮热\n黄疸",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 41,
+      "printPage": 227
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-013",
+    "name": "防己",
+    "chapterId": "c09",
+    "groupId": "c09-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "膀胱",
+      "肺"
+    ],
+    "effects": "祛风湿止痛、利水消肿",
+    "details": {
+      "indications": {
+        "text": "湿热痹痛\n水肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "5～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 41,
+      "printPage": 227
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-014",
+    "name": "雷公藤",
+    "chapterId": "c09",
+    "groupId": "c09-02",
+    "nature": "寒",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "祛风除湿、活血通络、消肿止痛、杀虫解毒",
+    "details": {
+      "indications": {
+        "text": "风湿顽痹\n疮毒",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "1～5g，文火久煎1～2小时",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "toxicity": {
+        "text": "原书标注有毒或大毒；具体剂量、炮制方法、禁忌及安全性必须进一步核查，不能据学习记录自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待重点复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 41,
+      "printPage": 227
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-015",
+    "name": "络石藤",
+    "chapterId": "c09",
+    "groupId": "c09-02",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "肝",
+      "肾"
+    ],
+    "effects": "祛风通络、凉血消肿",
+    "details": {
+      "indications": {
+        "text": "风湿热痹\n疮肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 41,
+      "printPage": 227
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-016",
+    "name": "豨莶草",
+    "chapterId": "c09",
+    "groupId": "c09-02",
+    "nature": "寒",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "肝",
+      "肾"
+    ],
+    "effects": "祛风湿、利关节、解毒",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n风疹疮肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "9～12g；酒制兼补肝肾",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 41,
+      "printPage": 227
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-017",
+    "name": "臭梧桐",
+    "chapterId": "c09",
+    "groupId": "c09-02",
+    "nature": "凉",
+    "flavors": [
+      "辛",
+      "苦",
+      "甘"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "祛风湿、通经络、平肝",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n头痛眩晕",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "5～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 41,
+      "printPage": 227
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-018",
+    "name": "桑枝",
+    "chapterId": "c09",
+    "groupId": "c09-02",
+    "nature": "平",
+    "flavors": [
+      "微苦"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "祛风湿、利关节、利水",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n水肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 41,
+      "printPage": 227
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-019",
+    "name": "海桐皮",
+    "chapterId": "c09",
+    "groupId": "c09-02",
+    "nature": "平",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "肝"
+    ],
+    "effects": "祛风除湿、通络止痛、杀虫止痒",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n疥癣",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "5～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 41,
+          "printPage": 227
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 41,
+      "printPage": 227
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-020",
+    "name": "五加皮",
+    "chapterId": "c09",
+    "groupId": "c09-03",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "肾"
+    ],
+    "effects": "祛风除湿、补益肝肾、强筋壮骨、利水消肿",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n筋骨痿软\n水肿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "5～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 42,
+      "printPage": 228
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-021",
+    "name": "桑寄生",
+    "chapterId": "c09",
+    "groupId": "c09-03",
+    "nature": "平",
+    "flavors": [
+      "苦",
+      "甘"
+    ],
+    "meridians": [
+      "肝",
+      "肾"
+    ],
+    "effects": "祛风湿、补肝肾、强筋骨、安胎元",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n腰膝酸软\n胎动不安",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "9～15g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 42,
+      "printPage": 228
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c09-022",
+    "name": "狗脊",
+    "chapterId": "c09",
+    "groupId": "c09-03",
+    "nature": "温",
+    "flavors": [
+      "苦",
+      "甘"
+    ],
+    "meridians": [
+      "肝",
+      "肾"
+    ],
+    "effects": "祛风湿、补肝肾、强腰膝",
+    "details": {
+      "indications": {
+        "text": "风湿痹痛\n腰膝痿软",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "6～12g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 42,
+      "printPage": 228
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c10-001",
+    "name": "广藿香",
+    "chapterId": "c10",
+    "groupId": "c10-01",
+    "nature": "微温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肺"
+    ],
+    "effects": "芳香化湿、和中止呕、发表解暑",
+    "details": {
+      "indications": {
+        "text": "湿阻中焦\n呕吐\n暑湿感冒",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～10g，不宜久煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 42,
+      "printPage": 228
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c10-002",
+    "name": "佩兰",
+    "chapterId": "c10",
+    "groupId": "c10-01",
+    "nature": "平",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肺"
+    ],
+    "effects": "芳香化湿、醒脾开胃、发表解暑",
+    "details": {
+      "indications": {
+        "text": "湿阻中焦\n暑湿\n口甜",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～10g，不宜久煎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 42,
+      "printPage": 228
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c10-003",
+    "name": "苍术",
+    "chapterId": "c10",
+    "groupId": "c10-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肝"
+    ],
+    "effects": "燥湿健脾、祛风散寒、明目",
+    "details": {
+      "indications": {
+        "text": "湿阻中焦\n风寒湿痹\n夜盲",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～9g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 42,
+      "printPage": 228
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c10-004",
+    "name": "厚朴",
+    "chapterId": "c10",
+    "groupId": "c10-01",
+    "nature": "温",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肺",
+      "大肠"
+    ],
+    "effects": "燥湿消痰、下气除满、行气消积、消痰平喘",
+    "details": {
+      "indications": {
+        "text": "湿滞中焦\n腹胀\n痰饮喘咳",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～10g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 42,
+          "printPage": 228
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 42,
+      "printPage": 228
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c10-005",
+    "name": "砂仁",
+    "chapterId": "c10",
+    "groupId": "c10-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肾"
+    ],
+    "effects": "化湿开胃、温脾止泻、理气安胎",
+    "details": {
+      "indications": {
+        "text": "湿阻中焦\n脾胃虚寒吐泻\n胎动不安",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～6g，后下",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 43,
+      "printPage": 229
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c10-006",
+    "name": "豆蔻",
+    "chapterId": "c10",
+    "groupId": "c10-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "脾",
+      "胃"
+    ],
+    "effects": "化湿行气、温中止呕、开胃消食",
+    "details": {
+      "indications": {
+        "text": "湿滞脾胃\n脘腹胀满\n呕吐",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～6g，后下",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 43,
+      "printPage": 229
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c10-007",
+    "name": "草豆蔻",
+    "chapterId": "c10",
+    "groupId": "c10-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃"
+    ],
+    "effects": "燥湿行气、温中止呕",
+    "details": {
+      "indications": {
+        "text": "寒湿中阻\n脘腹冷痛\n呕吐",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～6g，用时捣碎",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 43,
+      "printPage": 229
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c10-008",
+    "name": "草果",
+    "chapterId": "c10",
+    "groupId": "c10-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃"
+    ],
+    "effects": "燥湿温中、截疟除痰",
+    "details": {
+      "indications": {
+        "text": "寒湿内阻\n疟疾",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "待逐味复核"
+      },
+      "usage": {
+        "text": "3～6g",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "待逐味复核"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 43,
+      "printPage": 229
+    },
+    "reviewStatus": "结构化初稿·待逐味复核"
   }
 ]
