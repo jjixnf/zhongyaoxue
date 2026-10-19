@@ -1,0 +1,353 @@
+[
+  {
+    "id": "kp-herb-mahuang",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-mahuang"
+    ],
+    "title": "麻黄·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-guizhi",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-guizhi"
+    ],
+    "title": "桂枝·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-zisuye",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-zisuye"
+    ],
+    "title": "紫苏叶·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-shengjiang",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-shengjiang"
+    ],
+    "title": "生姜·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-xiangru",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-xiangru"
+    ],
+    "title": "香薷·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-jingjie",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-jingjie"
+    ],
+    "title": "荆芥·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-fangfeng",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-fangfeng"
+    ],
+    "title": "防风·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-qianghuo",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-qianghuo"
+    ],
+    "title": "羌活·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-baizhi",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-baizhi"
+    ],
+    "title": "白芷·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-xixin",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-xixin"
+    ],
+    "title": "细辛·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-cangerzi",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-cangerzi"
+    ],
+    "title": "苍耳子·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-gaoben",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-gaoben"
+    ],
+    "title": "藁本·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-xinyi",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-xinyi"
+    ],
+    "title": "辛夷·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-congbai",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-congbai"
+    ],
+    "title": "葱白·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-bohe",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-bohe"
+    ],
+    "title": "薄荷·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-niubangzi",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-niubangzi"
+    ],
+    "title": "牛蒡子·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-chantui",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-chantui"
+    ],
+    "title": "蝉蜕·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-sangye",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-sangye"
+    ],
+    "title": "桑叶·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-juhua",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-juhua"
+    ],
+    "title": "菊花·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-manjingzi",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-manjingzi"
+    ],
+    "title": "蔓荆子·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-chaihu",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-chaihu"
+    ],
+    "title": "柴胡·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-shengma",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-shengma"
+    ],
+    "title": "升麻·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-gegen",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-gegen"
+    ],
+    "title": "葛根·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-dandouchi",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-dandouchi"
+    ],
+    "title": "淡豆豉·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-fuping",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-fuping"
+    ],
+    "title": "浮萍·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-muzei",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-muzei"
+    ],
+    "title": "木贼·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-gujingcao",
+    "chapterId": "c06",
+    "herbIds": [
+      "herb-gujingcao"
+    ],
+    "title": "谷精草·性味归经",
+    "tags": [
+      "性味归经"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  }
+]

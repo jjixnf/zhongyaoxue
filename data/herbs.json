@@ -1,0 +1,567 @@
+[
+  {
+    "id": "herb-mahuang",
+    "name": "麻黄",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "微苦"
+    ],
+    "meridians": [
+      "肺",
+      "膀胱"
+    ],
+    "effects": "发汗解表、宣肺平喘、利水消肿、散寒通滞",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 210
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-guizhi",
+    "name": "桂枝",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "甘"
+    ],
+    "meridians": [
+      "心",
+      "肺",
+      "膀胱"
+    ],
+    "effects": "发汗解肌、温通经脉、助阳化气、平冲降逆、散寒止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 210
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-zisuye",
+    "name": "紫苏叶",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "脾"
+    ],
+    "effects": "解表散寒、行气和胃、止呕安胎、解鱼蟹毒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 211
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-shengjiang",
+    "name": "生姜",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "微温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "脾",
+      "胃"
+    ],
+    "effects": "解表散寒、温中止呕、化痰止咳、解毒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 211
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-xiangru",
+    "name": "香薷",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "微温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "脾",
+      "胃"
+    ],
+    "effects": "发汗解表、化湿和中、利水消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 211
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-jingjie",
+    "name": "荆芥",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "微温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "肝"
+    ],
+    "effects": "解表散风、透疹消疮、收敛止血",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 211
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-fangfeng",
+    "name": "防风",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "微温",
+    "flavors": [
+      "辛",
+      "甘"
+    ],
+    "meridians": [
+      "膀胱",
+      "肝",
+      "脾"
+    ],
+    "effects": "祛风解表、胜湿止痛、息风止痉",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 211
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-qianghuo",
+    "name": "羌活",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "膀胱",
+      "肾"
+    ],
+    "effects": "解表散寒、祛风除湿、止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 211
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-baizhi",
+    "name": "白芷",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "胃",
+      "大肠",
+      "肺"
+    ],
+    "effects": "解表散寒、祛风止痛、宣通鼻窍、燥湿止带、消肿排脓、祛风止痒、祛斑除臭",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 211
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-xixin",
+    "name": "细辛",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "心",
+      "肺",
+      "肾"
+    ],
+    "effects": "散寒解表、祛风止痛、宣通鼻窍、温肺化饮",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 212
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-cangerzi",
+    "name": "苍耳子",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肺"
+    ],
+    "effects": "散风寒、通鼻窍、祛风湿、止痛止痒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 212
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-gaoben",
+    "name": "藁本",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "膀胱"
+    ],
+    "effects": "祛风散寒、除湿止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 212
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-xinyi",
+    "name": "辛夷",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "散风寒、通鼻窍",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 212
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-congbai",
+    "name": "葱白",
+    "chapterId": "c06",
+    "groupId": "c06-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "发汗解表、散寒通阳、散结通络、下乳、解毒散结",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 212
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-bohe",
+    "name": "薄荷",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "凉",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "肝"
+    ],
+    "effects": "疏散风热、清利头目、利咽透疹、疏肝行气、芳香辟秽",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 212
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-niubangzi",
+    "name": "牛蒡子",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "寒",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "疏散风热、宣肺祛痰、利咽透疹、解毒消肿、滑肠通便",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 213
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-chantui",
+    "name": "蝉蜕",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "肺",
+      "肝"
+    ],
+    "effects": "疏散风热、利咽开音、透疹止痒、明目退翳、息风解痉",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 213
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-sangye",
+    "name": "桑叶",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "寒",
+    "flavors": [
+      "甘",
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "肝"
+    ],
+    "effects": "疏散风热、清肺润燥、平抑肝阳、清肝明目、凉血止血",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 213
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-juhua",
+    "name": "菊花",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "微寒",
+    "flavors": [
+      "辛",
+      "甘",
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "肝"
+    ],
+    "effects": "疏散风热、平抑肝阳、清肝明目、清热解毒、消散痈肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 213
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-manjingzi",
+    "name": "蔓荆子",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "微寒",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "膀胱",
+      "肝",
+      "胃"
+    ],
+    "effects": "疏散风热、清利头目、祛风止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 213
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-chaihu",
+    "name": "柴胡",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "微寒",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "胆",
+      "肺"
+    ],
+    "effects": "疏散退热、疏肝解郁、升举阳气、退热截疟",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 213
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-shengma",
+    "name": "升麻",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "微寒",
+    "flavors": [
+      "辛",
+      "微甘"
+    ],
+    "meridians": [
+      "肺",
+      "脾",
+      "胃",
+      "大肠"
+    ],
+    "effects": "发表透疹、清热解毒、升举阳气",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 213
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-gegen",
+    "name": "葛根",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "凉",
+    "flavors": [
+      "甘",
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肺"
+    ],
+    "effects": "解肌退热、生津止渴、透疹、升阳止泻、通经活络、解酒毒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 214
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-dandouchi",
+    "name": "淡豆豉",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "凉",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "解表、除烦、宣发郁热",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 214
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-fuping",
+    "name": "浮萍",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "寒",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "膀胱"
+    ],
+    "effects": "宣散风热、发汗解表、透疹止痒、利尿消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 214
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-muzei",
+    "name": "木贼",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "平",
+    "flavors": [
+      "甘",
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "肝"
+    ],
+    "effects": "疏散风热、明目退翳、止血",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 214
+    },
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "herb-gujingcao",
+    "name": "谷精草",
+    "chapterId": "c06",
+    "groupId": "c06-02",
+    "nature": "平",
+    "flavors": [
+      "辛",
+      "甘"
+    ],
+    "meridians": [
+      "肝",
+      "肺"
+    ],
+    "effects": "疏散风热、明目退翳",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "printPage": 214
+    },
+    "reviewStatus": "待逐味复核"
+  }
+]
