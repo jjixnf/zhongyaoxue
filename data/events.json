@@ -7,5 +7,23 @@
     "entityId": "c06",
     "count": 27,
     "label": "导入解表药27味（待逐味复核）"
+  },
+  {
+    "id": "event-theory-import-20261019",
+    "date": "2026-10-19",
+    "eventType": "dataset_import",
+    "entityType": "chapter",
+    "entityId": "c01",
+    "count": 36,
+    "label": "录入基础理论前五章36条主题概要（持续完善）"
+  },
+  {
+    "id": "event-details-import-20261019",
+    "date": "2026-10-19",
+    "eventType": "dataset_update",
+    "entityType": "chapter",
+    "entityId": "c06",
+    "count": 9,
+    "label": "扩充解表药9味的主治、用法和使用注意（待终审）"
   }
 ]
