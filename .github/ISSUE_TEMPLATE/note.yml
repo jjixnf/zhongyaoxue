@@ -1,0 +1,48 @@
+name: "📝 提交笔记或知识点"
+description: "提交个人记忆口诀、横向比较、知识点总结或补充"
+title: "[笔记] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        个人口诀将尽量保留原文。请注明是个人总结、教材依据或待核对观点。
+  - type: input
+    id: link
+    attributes:
+      label: "关联药物 / 章节"
+      placeholder: "例如：麻黄、桂枝；解表药"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "内容类型"
+      options:
+        - "个人记忆口诀"
+        - "个人笔记"
+        - "横向对比"
+        - "知识点总结"
+        - "待核查的观点"
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: "笔记原文"
+      description: "可粘贴截图，不需要转换成 JSON"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "参考来源 / 页码 / 记录日期"
+      placeholder: "《学霸笔记—中药学》210页 / 2026-10-19；没有可留空"
+    validations:
+      required: false
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: "提交确认"
+      options:
+        - label: "我理解这条笔记将公开显示，并可能在审核后关联到多个知识点。"
+          required: true
