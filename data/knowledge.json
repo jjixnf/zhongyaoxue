@@ -863,5 +863,885 @@
       22
     ],
     "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-herb-c07-001",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-001"
+    ],
+    "title": "石膏·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-002",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-002"
+    ],
+    "title": "知母·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-003",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-003"
+    ],
+    "title": "芦根·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-004",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-004"
+    ],
+    "title": "天花粉·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-005",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-005"
+    ],
+    "title": "栀子·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-006",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-006"
+    ],
+    "title": "夏枯草·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-007",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-007"
+    ],
+    "title": "决明子·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-008",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-008"
+    ],
+    "title": "淡竹叶·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-009",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-009"
+    ],
+    "title": "密蒙花·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-010",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-010"
+    ],
+    "title": "青葙子·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-011",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-011"
+    ],
+    "title": "黄芩·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-012",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-012"
+    ],
+    "title": "黄连·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-013",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-013"
+    ],
+    "title": "黄柏·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-014",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-014"
+    ],
+    "title": "龙胆·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-015",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-015"
+    ],
+    "title": "秦皮·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-016",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-016"
+    ],
+    "title": "苦参·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-017",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-017"
+    ],
+    "title": "白鲜皮·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-018",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-018"
+    ],
+    "title": "金银花·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-019",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-019"
+    ],
+    "title": "连翘·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-020",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-020"
+    ],
+    "title": "大青叶·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-021",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-021"
+    ],
+    "title": "板蓝根·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-022",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-022"
+    ],
+    "title": "青黛·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-023",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-023"
+    ],
+    "title": "贯众·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-024",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-024"
+    ],
+    "title": "蒲公英·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-025",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-025"
+    ],
+    "title": "紫花地丁·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-026",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-026"
+    ],
+    "title": "重楼·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-027",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-027"
+    ],
+    "title": "鱼腥草·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-028",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-028"
+    ],
+    "title": "山豆根·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-029",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-029"
+    ],
+    "title": "白头翁·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-030",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-030"
+    ],
+    "title": "射干·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-031",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-031"
+    ],
+    "title": "土茯苓·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-032",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-032"
+    ],
+    "title": "熊胆粉·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-033",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-033"
+    ],
+    "title": "穿心莲·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-034",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-034"
+    ],
+    "title": "野菊花·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-035",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-035"
+    ],
+    "title": "白花蛇舌草·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-036",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-036"
+    ],
+    "title": "败酱草·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-037",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-037"
+    ],
+    "title": "大血藤·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-038",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-038"
+    ],
+    "title": "马勃·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-039",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-039"
+    ],
+    "title": "马齿苋·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-040",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-040"
+    ],
+    "title": "鸦胆子·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-041",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-041"
+    ],
+    "title": "漏芦·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-042",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-042"
+    ],
+    "title": "山慈菇·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-043",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-043"
+    ],
+    "title": "半边莲·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-044",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-044"
+    ],
+    "title": "白蔹·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-045",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-045"
+    ],
+    "title": "生地黄·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-046",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-046"
+    ],
+    "title": "玄参·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-047",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-047"
+    ],
+    "title": "牡丹皮·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-048",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-048"
+    ],
+    "title": "赤芍·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-049",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-049"
+    ],
+    "title": "水牛角·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-050",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-050"
+    ],
+    "title": "紫草·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-051",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-051"
+    ],
+    "title": "青蒿·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-052",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-052"
+    ],
+    "title": "白薇·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-053",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-053"
+    ],
+    "title": "地骨皮·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-054",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-054"
+    ],
+    "title": "银柴胡·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-herb-c07-055",
+    "chapterId": "c07",
+    "herbIds": [
+      "herb-c07-055"
+    ],
+    "title": "胡黄连·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治",
+      "用法"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味复核"
   }
 ]
