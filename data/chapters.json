@@ -1,0 +1,158 @@
+[
+  {
+    "id": "c06",
+    "number": 6,
+    "title": "解表药",
+    "status": "样板录入（待逐味复核）",
+    "groups": [
+      {
+        "id": "c06-01",
+        "title": "发散风寒药"
+      },
+      {
+        "id": "c06-02",
+        "title": "发散风热药"
+      }
+    ]
+  },
+  {
+    "id": "c07",
+    "number": 7,
+    "title": "清热药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c08",
+    "number": 8,
+    "title": "泻下药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c09",
+    "number": 9,
+    "title": "祛风湿药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c10",
+    "number": 10,
+    "title": "化湿药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c11",
+    "number": 11,
+    "title": "利水渗湿药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c12",
+    "number": 12,
+    "title": "温里药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c13",
+    "number": 13,
+    "title": "理气药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c14",
+    "number": 14,
+    "title": "消食药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c15",
+    "number": 15,
+    "title": "驱虫药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c16",
+    "number": 16,
+    "title": "止血药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c17",
+    "number": 17,
+    "title": "活血化瘀药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c18",
+    "number": 18,
+    "title": "化痰止咳平喘药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c19",
+    "number": 19,
+    "title": "安神药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c20",
+    "number": 20,
+    "title": "平肝息风药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c21",
+    "number": 21,
+    "title": "开窍药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c22",
+    "number": 22,
+    "title": "补益药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c23",
+    "number": 23,
+    "title": "收涩药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c24",
+    "number": 24,
+    "title": "涌吐药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c25",
+    "number": 25,
+    "title": "攻毒杀虫止痒药",
+    "status": "待录入",
+    "groups": []
+  },
+  {
+    "id": "c26",
+    "number": 26,
+    "title": "拔毒化腐生肌药",
+    "status": "待录入",
+    "groups": []
+  }
+]
