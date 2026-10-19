@@ -1,0 +1,53 @@
+name: "📕 提交错题"
+description: "把中药学错题提交到待审核队列；整理后挂到章节、药物与知识点"
+title: "[错题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢贡献！Issue 是**审核入口**，不会自动进入网站。可附截图；请避免发布个人信息或大段受版权保护的试题原文。
+  - type: input
+    id: chapter
+    attributes:
+      label: "相关章节 / 药物"
+      description: "填写中文药名或分类就可以，不需要内部编号"
+      placeholder: "例如：解表药 · 麻黄、桂枝"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: "题目、选项或截图"
+      description: "自行概述或提供必要信息；截图可拖入编辑框"
+      placeholder: "题目内容、选项、图片……"
+    validations:
+      required: true
+  - type: textarea
+    id: answer
+    attributes:
+      label: "你的作答 / 参考答案"
+      description: "不确定可以留空"
+      placeholder: "我的答案：…；标准答案：…"
+    validations:
+      required: false
+  - type: textarea
+    id: error
+    attributes:
+      label: "错误原因 / 希望分析的点"
+      description: "可为空，分析时会结合原题作判断"
+    validations:
+      required: false
+  - type: input
+    id: source
+    attributes:
+      label: "题目来源、做题日期（如有）"
+      placeholder: "例如：蓝基因、2026-10-19"
+    validations:
+      required: false
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: "提交确认"
+      options:
+        - label: "我知道本 Issue 需要审核、整理和校对后才会加入公开知识库。"
+          required: true

@@ -57,11 +57,28 @@ function recordCard(r){
  return '<button class="record-card" data-record="'+escapeHtml(r.id)+'"><small>'+tag+' · '+escapeHtml(dateOf(r.createdAt)||r.createdOn||"日期未知")+(r.origin==="local"?" · 本机":" · 公开")+'</small><strong>'+escapeHtml(r.title||"未命名")+'</strong></button>';
 }
 function enableRecordLinks(scope){scope.querySelectorAll("[data-record]").forEach(b=>b.onclick=()=>viewRecord(b.dataset.record));}
+// 资料细节是可选且必须有来源的扩展字段；不存在时不凭空生成医学知识
+function renderDrugExtra(h){
+ const detail=h.details||{};
+ const sections=[["indications","主治病证"],["usage","用法用量"],["cautions","使用注意"],["pairings","常用配伍"],["differentiation","鉴别要点"]];
+ let html='<div class="herb-extra"><h3>单味药扩展资料</h3>';
+ let count=0;
+ for (const [key,label] of sections){
+   const entry=detail[key];
+   if(!entry||typeof entry.text!=="string"||!entry.text.trim())continue;
+   count++;
+   const source=entry.source||{},place=source.printPage?" · 页"+source.printPage:"";
+   const status=entry.reviewStatus?(" · "+entry.reviewStatus):"";
+   html+='<dl><dt>'+escapeHtml(label)+'</dt><dd>'+escapeHtml(entry.text)+'</dd></dl><p class="mini-note">来源：'+escapeHtml(source.title||"待注明")+escapeHtml(place)+escapeHtml(status)+'</p>';
+ }
+ if(!count)html+='<p class="mini-note">主治、用量、注意事项、配伍和鉴别点尚待按教材逐味录入。现有功效与性味归经已在上方展示。</p>';
+ return html+'</div>';
+}
 function renderDetail(){
  let h=herbById(activeHerb);
  if(!h){$("detailPanel").innerHTML='<div class="placeholder">选择一味药，查看药性、药味、归经、功效及关联错题和笔记。</div>';return;}
  const chapter=chapterById(h.chapterId),group=chapter?.groups.find(g=>g.id===h.groupId),linked=linkedRecords(h),points=db.knowledge.filter(k=>(k.herbIds||[]).includes(h.id));
- $("detailPanel").innerHTML='<div class="detail-top"><div><span class="tag">'+escapeHtml(chapter?.title||"")+'</span><span class="tag">'+escapeHtml(group?.title||"")+'</span><h2>'+escapeHtml(h.name)+'</h2></div><button class="ghost" id="copyHerb" type="button">复制资料</button></div><p class="muted">来源：《'+escapeHtml(h.source?.title||"学霸笔记—中药学")+'》印刷页 '+escapeHtml(h.source?.printPage||"待查")+' · '+escapeHtml(h.reviewStatus||"待复核")+'</p><div class="property-grid"><div class="property"><small>四气</small><strong class="warm">'+escapeHtml(h.nature)+'</strong></div><div class="property"><small>五味</small><strong>'+escapeHtml(h.flavors.join("、"))+'</strong></div><div class="property"><small>归经</small><strong>'+escapeHtml(h.meridians.join("、"))+'</strong></div></div><details><summary>展开功效</summary><p>'+escapeHtml(h.effects)+'</p></details><div class="subsection"><h3>知识点</h3><div class="pill-row">'+points.map(k=>'<span class="chip" title="'+escapeHtml(k.id)+'">'+escapeHtml(k.title)+'</span>').join("")+'</div></div><div class="subsection"><div class="section-heading"><h3>关联错题和笔记（'+linked.length+'）</h3></div><div class="button-pair"><button class="primary" id="addRelatedQuestion" type="button">＋ 添加错题</button><button id="addRelatedNote" type="button">＋ 添加笔记</button></div>'+(linked.length?linked.map(recordCard).join(""):'<p class="muted">暂无关联记录；新增后将与本味药和对应知识点双向关联。</p>')+'</div>';
+ $("detailPanel").innerHTML='<div class="detail-top"><div><span class="tag">'+escapeHtml(chapter?.title||"")+'</span><span class="tag">'+escapeHtml(group?.title||"")+'</span><h2>'+escapeHtml(h.name)+'</h2></div><button class="ghost" id="copyHerb" type="button">复制资料</button></div><p class="muted">来源：《'+escapeHtml(h.source?.title||"学霸笔记—中药学")+'》印刷页 '+escapeHtml(h.source?.printPage||"待查")+' · '+escapeHtml(h.reviewStatus||"待复核")+'</p><div class="property-grid"><div class="property"><small>四气</small><strong class="warm">'+escapeHtml(h.nature)+'</strong></div><div class="property"><small>五味</small><strong>'+escapeHtml(h.flavors.join("、"))+'</strong></div><div class="property"><small>归经</small><strong>'+escapeHtml(h.meridians.join("、"))+'</strong></div></div><details><summary>展开功效</summary><p>'+escapeHtml(h.effects)+'</p></details>'+renderDrugExtra(h)+'<div class="subsection"><h3>知识点</h3><div class="pill-row">'+points.map(k=>'<span class="chip" title="'+escapeHtml(k.id)+'">'+escapeHtml(k.title)+'</span>').join("")+'</div></div><div class="subsection"><div class="section-heading"><h3>关联错题和笔记（'+linked.length+'）</h3></div><div class="button-pair"><button class="primary" id="addRelatedQuestion" type="button">＋ 添加错题</button><button id="addRelatedNote" type="button">＋ 添加笔记</button></div>'+(linked.length?linked.map(recordCard).join(""):'<p class="muted">暂无关联记录；新增后将与本味药和对应知识点双向关联。</p>')+'</div>';
  $("copyHerb").onclick=()=>copyText(contextForHerb(h),"已复制当前药物资料");
  $("addRelatedQuestion").onclick=()=>openRecordForm("question",h.id);
  $("addRelatedNote").onclick=()=>openRecordForm("note",h.id);
