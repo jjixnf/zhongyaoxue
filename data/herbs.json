@@ -18,7 +18,36 @@
       "title": "学霸笔记—中药学",
       "printPage": 210
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于风寒表证、肺气壅遏引起的咳喘、风水水肿，以及风寒痹痛等证。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 210,
+          "pdfPage": 24
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "教材所列汤剂用量为2～10g；生用侧重发汗，不宜久煎；蜜炙侧重止咳平喘；捣绒作用较缓。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 210,
+          "pdfPage": 24
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "cautions": {
+        "text": "教材提示：表虚自汗、阴虚盗汗、肺肾虚喘以及失眠、高血压者慎用；运动员用药亦有专门提示。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 210,
+          "pdfPage": 24
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-guizhi",
@@ -40,7 +69,45 @@
       "title": "学霸笔记—中药学",
       "printPage": 210
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于外感风寒、寒凝血滞引起的疼痛、痰饮蓄水以及心悸、奔豚等病证。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 210,
+          "pdfPage": 24
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "教材所列煎服用量为3～10g，常与白芍配伍用于调和营卫。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 210,
+          "pdfPage": 24
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "cautions": {
+        "text": "教材提示：温热病、阴虚阳盛及血热妄行等证忌用；孕妇和月经过多者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 210,
+          "pdfPage": 24
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "pairings": {
+        "text": "桂枝配白芍：原书列作调和营卫的配伍例。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 210,
+          "pdfPage": 24
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-zisuye",
@@ -60,7 +127,27 @@
       "title": "学霸笔记—中药学",
       "printPage": 211
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于风寒感冒伴咳嗽呕恶、脾胃气滞所致胸闷呕吐、妊娠呕吐以及鱼蟹中毒相关吐泻。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "教材所列煎服用量为5～10g，不宜久煎。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-shengjiang",
@@ -81,7 +168,45 @@
       "title": "学霸笔记—中药学",
       "printPage": 211
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于轻症风寒感冒、脾胃虚寒或寒邪所致呕吐、寒痰咳嗽，以及原书列举的部分药食中毒情形。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "教材所列煎服用量为3～10g，也可捣汁；原书列出生姜与大枣调和营卫的配伍。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "cautions": {
+        "text": "教材提示：阴虚内热及热盛者忌用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "pairings": {
+        "text": "生姜配大枣：原书列作调和营卫的配伍例。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-xiangru",
@@ -102,7 +227,36 @@
       "title": "学霸笔记—中药学",
       "printPage": 211
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于外感风寒、内伤暑湿所致感冒，以及水肿、小便不利等证。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "教材所列煎服用量为3～10g；发表宜量小且不久煎，利水则用量与煎法有所区别。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "cautions": {
+        "text": "教材提示：表虚多汗及暑热证忌用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-jingjie",
@@ -122,7 +276,27 @@
       "title": "学霸笔记—中药学",
       "printPage": 211
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于感冒头痛、麻疹透发不畅、风疹瘙痒、疮疡初起兼表证；炒炭还用于出血证。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "教材所列煎服用量为5～10g，不宜久煎；生用偏于解表透疹，炒炭用于止血。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 211,
+          "pdfPage": 25
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-fangfeng",
@@ -207,7 +381,36 @@
       "title": "学霸笔记—中药学",
       "printPage": 212
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于风寒感冒及阳虚外感所致头身疼痛、头痛牙痛、鼻渊、寒痰停饮、风湿痹痛等原书所列证候。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 212,
+          "pdfPage": 26
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "教材所列煎服用量为1～3g；散剂每次0.5～1g。此药有毒，用量应按专业指导，不应据学习资料自行服用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 212,
+          "pdfPage": 26
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "cautions": {
+        "text": "原书明确记载有小毒，忌与藜芦同用；过量或煎煮时间不当可能增加中毒风险。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 212,
+          "pdfPage": 26
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-cangerzi",
@@ -306,7 +509,27 @@
       "title": "学霸笔记—中药学",
       "printPage": 212
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于风热外感、头目不清、咽喉不利、麻疹透发不畅以及肝郁气滞等证。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 212,
+          "pdfPage": 26
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "本项详细用法尚待逐条校对原书，不以通用剂量代填。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 212,
+          "pdfPage": 26
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-niubangzi",
@@ -479,7 +702,27 @@
       "title": "学霸笔记—中药学",
       "printPage": 214
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "details": {
+      "indications": {
+        "text": "用于外感发热与项背不舒、热病口渴、麻疹不透、泄泻痢疾，以及教材所列经络病证。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 214,
+          "pdfPage": 28
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      },
+      "usage": {
+        "text": "教材所列煎服用量为10～15g；生用侧重退热、生津、透疹等，煨用侧重升阳止泻。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "printPage": 214,
+          "pdfPage": 28
+        },
+        "reviewStatus": "原书信息已摘录，表述待终审"
+      }
+    }
   },
   {
     "id": "herb-dandouchi",
