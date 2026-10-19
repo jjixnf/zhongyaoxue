@@ -6187,5 +6187,564 @@
       }
     },
     "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c12-001",
+    "name": "附子",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "大热",
+    "flavors": [
+      "辛",
+      "甘"
+    ],
+    "meridians": [
+      "心",
+      "肾",
+      "脾"
+    ],
+    "effects": "回阳救逆；补火助阳；散寒止痛",
+    "details": {
+      "indications": {
+        "text": "1. 危重阳脱证，如大汗、大吐泻后四肢厥冷、脉微欲绝；常与益气药协同回阳\n2. 心阳、脾阳、肾阳不足：包括虚寒吐泻、水肿、腰膝冷痛、胸痹和阳虚外感等\n3. 寒湿痹痛、肢体关节冷痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～15g，须使用经过炮制的饮片，先煎、久煎；生品限外用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "有毒。超剂量、生品内服、炮制或煎煮不当均可能致中毒。孕妇慎用，热证及阴虚阳亢忌用；教材列忌同配半夏、瓜蒌及相关部位、天花粉、川贝母、浙贝母、白蔹、白及。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "toxicity": {
+        "text": "有毒。必须炮制、先煎久煎；炮制或煎服不当以及过量可能导致中毒。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 46,
+      "printPage": 232
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-002",
+    "name": "肉桂",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "大热",
+    "flavors": [
+      "辛",
+      "甘"
+    ],
+    "meridians": [
+      "肾",
+      "脾",
+      "心",
+      "肝"
+    ],
+    "effects": "补火助阳；散寒止痛；温通经脉；引火归元",
+    "details": {
+      "indications": {
+        "text": "1. 肾阳虚、命门火衰的腰膝冷痛、阳痿、宫冷等\n2. 寒凝中焦或胸腹的冷痛、疝痛、虚寒呕泻\n3. 冲任虚寒、寒凝血滞导致月经不调、痛经经闭等，兼寒湿痹痛\n4. 肾虚气喘、虚阳浮越一类病证\n5. 久病气血虚寒者少量配用，以温阳助气血生化",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "1～5g，煎服时宜后下或焗服；研末冲服每次1～2g。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "阴虚火旺、里热、出血倾向或孕妇慎用；与赤石脂有配伍禁忌。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 46,
+      "printPage": 232
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-003",
+    "name": "干姜",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "热",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肾",
+      "心",
+      "肺"
+    ],
+    "effects": "温中散寒；回阳通脉；温肺化饮",
+    "details": {
+      "indications": {
+        "text": "1. 中焦虚寒引起脘腹冷痛、呕吐、泄泻\n2. 阳衰寒盛、肢冷脉微\n3. 肺中寒饮所致咳喘",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "阴虚内热、血热妄行者忌用；原书另注明其他教材有孕妇慎用的表述。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 46,
+      "printPage": 232
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-004",
+    "name": "吴茱萸",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "热",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "脾",
+      "胃",
+      "肾"
+    ],
+    "effects": "散寒止痛；降逆止呕；助阳止泻",
+    "details": {
+      "indications": {
+        "text": "1. 寒凝肝脉所致厥阴头痛、寒疝腹痛、经行腹痛及寒湿脚气\n2. 胃寒气逆引起的胃脘胀痛、呕吐、吞酸\n3. 脾肾阳虚的五更泄泻\n4. 原书还记载研末醋调外敷足心的传统应用",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "2～5g，煎服；外用适量。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "有小毒，辛热燥烈，久用或大量可能耗气动火；阴虚内热忌用，孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "toxicity": {
+        "text": "有小毒。不可大量使用或长期服用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 47,
+      "printPage": 233
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-005",
+    "name": "丁香",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肺",
+      "肾"
+    ],
+    "effects": "温中降逆；补肾助阳；散寒止痛",
+    "details": {
+      "indications": {
+        "text": "1. 脾胃虚寒所致呃逆、呕吐、吐泻，降逆止呕为记忆重点\n2. 寒凝胸腹冷痛\n3. 肾虚阳痿、宫冷不孕",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "1～3g，煎服；可研末内服或外敷。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "热证及阴虚内热忌用；原书注明不宜与郁金同配。肺经在原书中用括号标注。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 47,
+      "printPage": 233
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-006",
+    "name": "花椒",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肾"
+    ],
+    "effects": "温中止痛；杀虫止痒",
+    "details": {
+      "indications": {
+        "text": "1. 中焦虚寒冷痛、呕吐和泄泻\n2. 虫积腹痛，教材提到蛔虫等及肛周瘙痒\n3. 湿疹、阴痒等可外用止痒\n4. 教材提到与茯苓配伍处理某些寒性痰喘和腰足冷证",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～6g，煎服；外用可煎汤熏洗。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "阴虚内热者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 47,
+      "printPage": 233
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-007",
+    "name": "高良姜",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "热",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃"
+    ],
+    "effects": "散寒止痛；温中止呕",
+    "details": {
+      "indications": {
+        "text": "1. 胃寒脘腹疼痛\n2. 胃寒呕吐、嗳气、吞酸",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～6g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 47,
+      "printPage": 233
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-008",
+    "name": "小茴香",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肝",
+      "肾",
+      "脾",
+      "胃"
+    ],
+    "effects": "散寒止痛；理气和胃",
+    "details": {
+      "indications": {
+        "text": "1. 寒疝、睾丸偏坠胀痛、少腹冷痛及寒凝痛经\n2. 脾胃虚寒兼气滞，脘腹胀痛、纳差、呕泻",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～6g，煎服；盐炙更偏暖肾散寒；可外用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "阴虚火旺者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 47,
+      "printPage": 233
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-009",
+    "name": "荜茇",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "热",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "胃",
+      "大肠"
+    ],
+    "effects": "温中散寒；下气止痛",
+    "details": {
+      "indications": {
+        "text": "1. 中寒脘腹冷痛、呕吐、呃逆、泄泻\n2. 寒凝气滞的胸痹心痛、头痛与牙痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "1～3g，煎服；外用可研末局部使用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 47,
+      "printPage": 233
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-010",
+    "name": "荜澄茄",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肾",
+      "膀胱"
+    ],
+    "effects": "温中散寒；行气止痛",
+    "details": {
+      "indications": {
+        "text": "1. 胃寒脘腹冷痛、呃逆呕吐\n2. 寒疝腹痛\n3. 寒湿导致小便混浊\n4. 肾与膀胱虚冷导致小便不利",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "1～3g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 47,
+      "printPage": 233
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c12-011",
+    "name": "胡椒",
+    "chapterId": "c12",
+    "groupId": "c12-01",
+    "nature": "热",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "胃",
+      "大肠"
+    ],
+    "effects": "温中散寒；下气消痰；开胃进食",
+    "details": {
+      "indications": {
+        "text": "1. 胃寒腹痛、呕吐、泄泻\n2. 痰盛所致癫痫相关证候\n3. 纳差、食欲不振",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "usage": {
+        "text": "研粉吞服，每次0.6～1.5g；外用适量。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "阴虚内热者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 47,
+          "printPage": 233
+        },
+        "reviewStatus": "对照原书页面整理，待逐味终审"
+      }
+    },
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 47,
+      "printPage": 233
+    },
+    "reviewStatus": "对照原书页面整理，待逐味终审"
   }
 ]
