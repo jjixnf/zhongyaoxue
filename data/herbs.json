@@ -6746,5 +6746,1160 @@
       "printPage": 233
     },
     "reviewStatus": "对照原书页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-001",
+    "name": "陈皮",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "脾",
+      "肺"
+    ],
+    "effects": "理气健脾；燥湿化痰；行气通痹；止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 48,
+      "printPage": 234
+    },
+    "details": {
+      "indications": {
+        "text": "1. 脾胃气滞夹寒湿：腹部痞胀、食少、恶心呕泻\n2. 胃气上逆所致呕吐、呃逆\n3. 痰湿、寒痰壅肺而咳嗽痰多\n4. 气机不畅导致胸痹",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "内有实热、舌红少津者慎用；辛散苦燥易助热耗津。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "又名橘皮。橘红取成熟果皮的外层，亦偏理气燥湿化痰；需辨别二者药材部位。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      },
+      "specialNotes": {
+        "text": "陈皮与橘红的部位、用途辨析见鉴别部分；橘红并非当前章节独立目录药名。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "原书附注整理"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-002",
+    "name": "青皮",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "肝",
+      "胆",
+      "胃"
+    ],
+    "effects": "疏肝破气；消积化滞；行气止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 48,
+      "printPage": 234
+    },
+    "details": {
+      "indications": {
+        "text": "1. 肝郁气滞所致胸胁、乳房胀痛及疝气疼痛\n2. 食积气滞导致脘腹胀痛\n3. 气滞血瘀形成积聚、痞块",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～10g，煎服；醋炙加强疏肝止痛。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "气虚者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "比陈皮偏于疏肝破气、消积，力更峻。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-003",
+    "name": "枳实",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "微寒",
+    "flavors": [
+      "苦",
+      "辛",
+      "酸"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "大肠"
+    ],
+    "effects": "破气消积；化痰除痞；止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 48,
+      "printPage": 234
+    },
+    "details": {
+      "indications": {
+        "text": "1. 胃肠积滞造成痞满、腹胀疼痛、便秘或痢疾后重\n2. 痰气互结的胸痹、结胸\n3. 脾虚中气下陷导致的脏器下垂，常配补益升提药",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～10g，煎服；炒用药性较平和。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "脾胃虚弱及孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "原书把大肠经加括号。与枳壳比较，枳实偏破气消积，枳壳偏理气宽中。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-004",
+    "name": "枳壳",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "微寒",
+    "flavors": [
+      "苦",
+      "辛",
+      "酸"
+    ],
+    "meridians": [
+      "脾",
+      "胃"
+    ],
+    "effects": "理气宽中；行滞消胀",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 48,
+      "printPage": 234
+    },
+    "details": {
+      "indications": {
+        "text": "1. 胸胁、脘腹气滞胀满\n2. 饮食积滞、痰饮停聚相关胀满\n3. 中气不利伴脏器下垂的证候",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "与枳实同类但力量相对和缓，侧重宽胸理气。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-005",
+    "name": "木香",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "大肠",
+      "胆",
+      "三焦"
+    ],
+    "effects": "行气止痛；健脾消食",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 48,
+      "printPage": 234
+    },
+    "details": {
+      "indications": {
+        "text": "1. 脾胃气滞、食积不化、食少腹胀疼痛\n2. 大肠气滞、痢疾里急后重\n3. 肝胆气滞的胁痛、黄疸及疝痛\n4. 与滋腻补益药配伍以减轻碍胃滞气",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～6g，煎服；生用行气力较强，煨用偏于止泻。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "阴虚津亏、火旺者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "行气止痛的常用药，湿热痢疾里急后重为常考用途。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-006",
+    "name": "香附",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "平",
+    "flavors": [
+      "辛",
+      "微苦",
+      "微甘"
+    ],
+    "meridians": [
+      "肝",
+      "脾",
+      "三焦"
+    ],
+    "effects": "疏肝解郁；理气宽中；调经止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 48,
+      "printPage": 234
+    },
+    "details": {
+      "indications": {
+        "text": "1. 肝郁气滞的胁肋胀痛、疝痛\n2. 月经不调、闭经、痛经及乳房胀痛\n3. 脾胃气滞造成脘腹痞胀疼痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "6～10g，煎服；醋制偏疏肝止痛。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "尤其常用于肝郁及妇科气滞，兼顾调经。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-007",
+    "name": "乌药",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "肺",
+      "肾",
+      "脾",
+      "膀胱"
+    ],
+    "effects": "行气止痛；温肾散寒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 48,
+      "printPage": 234
+    },
+    "details": {
+      "indications": {
+        "text": "1. 寒凝气滞导致胸腹胀痛、疝痛及经行腹痛，可兼气逆喘急\n2. 肾阳不足、膀胱虚冷所致尿频、遗尿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "6～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "能疏通三焦气机，又可温肾助膀胱气化。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 48,
+          "printPage": 234
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-008",
+    "name": "沉香",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "微温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肾"
+    ],
+    "effects": "行气止痛；温中止呕；纳气平喘",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 寒凝气滞的胸腹胀痛\n2. 胃寒呕吐、呃逆\n3. 肾不纳气导致虚喘、气逆",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "1～5g，煎服宜后下；亦可磨汁冲服，或入丸散每次0.5～1g。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "阴虚火旺者慎用；原书补充气虚下陷也需谨慎。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "能降气止痛并纳气平喘，宜辨别实喘与肾虚气逆。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-009",
+    "name": "檀香",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "心",
+      "肺"
+    ],
+    "effects": "行气止痛；散寒调中；开胃",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 寒凝气滞所致胸痹、胸膈不舒和心痛\n2. 胃寒脘腹疼痛、呕吐及食少",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "2～5g，煎服宜后下。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "阴虚火旺、实热吐衄者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "偏于中上焦寒凝气滞。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-010",
+    "name": "川楝子",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "小肠",
+      "膀胱"
+    ],
+    "effects": "疏肝泄热；行气止痛；杀虫；疗癣",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 肝郁化火的胁痛、脘腹胀痛及疝痛\n2. 肠道寄生虫导致腹痛\n3. 头癣等皮肤癣病",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "5～10g，煎服，炒制可减轻寒性；外用适量研末调敷。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "有小毒，不宜过量或连续久服；脾胃虚寒慎用，孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "偏于有热的肝郁气滞疼痛，与温性行气药需区别。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      },
+      "toxicity": {
+        "text": "原书注明小毒，连续服用、过量及脾胃虚寒用药均有风险。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "原书页面整理"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-011",
+    "name": "薤白",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肺",
+      "心",
+      "胃",
+      "大肠"
+    ],
+    "effects": "通阳散结；行气导滞",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 胸阳不振、寒凝气滞导致胸痛彻背、短气胸闷的胸痹\n2. 胃肠气滞引起脘腹痞满及痢疾里急后重",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "5～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "气虚无滞、胃弱纳呆者不宜使用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "胸痹证的典型常用药，通胸阳与行气导滞并用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-012",
+    "name": "荔枝核",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "甘",
+      "微苦"
+    ],
+    "meridians": [
+      "肝",
+      "肾"
+    ],
+    "effects": "行气散结；散寒止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 寒疝腹痛、睾丸肿痛\n2. 胃脘气滞疼痛\n3. 经行痛经或产后腹痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "5～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "偏治肝经寒凝气滞疼痛。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-013",
+    "name": "佛手",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦",
+      "酸"
+    ],
+    "meridians": [
+      "肝",
+      "脾",
+      "胃",
+      "肺"
+    ],
+    "effects": "疏肝理气；和胃止痛；燥湿化痰",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 肝胃不和的胸胁胀满、脘痛\n2. 脾胃气滞的胃脘痞闷、食少呕吐\n3. 痰湿壅肺所致咳嗽痰多",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "疏肝和胃兼燥湿化痰。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-014",
+    "name": "香橼",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦",
+      "酸"
+    ],
+    "meridians": [
+      "肝",
+      "脾",
+      "肺"
+    ],
+    "effects": "疏肝解郁；理气宽中；燥湿化痰",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 肝郁、肝胃不和引起的胁痛\n2. 脾胃气滞造成脘腹痞满、嗳气呕吐\n3. 痰湿咳嗽、痰多",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "与佛手相近，二者均兼肝胃气滞和湿痰咳嗽。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-015",
+    "name": "玫瑰花",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "甘",
+      "微苦"
+    ],
+    "meridians": [
+      "肝",
+      "脾"
+    ],
+    "effects": "行气解郁；和血；止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 肝胃气滞导致胃脘、胁肋胀痛、食少恶心\n2. 跌扑损伤疼痛\n3. 月经不调、经前乳房胀痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～6g，煎服或泡服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "疏肝和胃，兼和血止痛。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-016",
+    "name": "大腹皮",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "微温",
+    "flavors": [
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "大肠",
+      "小肠"
+    ],
+    "effects": "行气宽中；利水消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 湿阻气滞、胃肠脘腹胀满及大便不爽\n2. 水肿、脚气肿痛和小便不利",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "5～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "气虚体弱者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "理气兼利水，用于湿滞气阻腹胀。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-017",
+    "name": "柿蒂",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "平",
+    "flavors": [
+      "苦",
+      "涩"
+    ],
+    "meridians": [
+      "胃"
+    ],
+    "effects": "降气止呃",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 胃气上逆引起呃逆，随寒热虚实配伍",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "5～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "cautions": {
+        "text": "气虚下陷者忌用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "降胃气止呃逆为专长。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-018",
+    "name": "刀豆",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "胃",
+      "肾"
+    ],
+    "effects": "温中；降气止呃；温肾助阳",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 49,
+      "printPage": 235
+    },
+    "details": {
+      "indications": {
+        "text": "1. 虚寒呃逆、呕吐\n2. 肾虚腰痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "6～9g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "虚寒气逆之呃逆，兼温肾。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 49,
+          "printPage": 235
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-019",
+    "name": "甘松",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "甘"
+    ],
+    "meridians": [
+      "脾",
+      "胃"
+    ],
+    "effects": "行气止痛；开郁醒脾；祛湿消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 50,
+      "printPage": 236
+    },
+    "details": {
+      "indications": {
+        "text": "1. 寒郁气滞所致腹部胀满、食欲不振、呕吐\n2. 牙痛以及湿滞脚气肿痛",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 50,
+          "printPage": 236
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～6g，煎服；外用可泡汤漱口、洗足或研末敷。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 50,
+          "printPage": 236
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "理气醒脾兼外用止痛。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 50,
+          "printPage": 236
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
+  },
+  {
+    "id": "herb-c13-020",
+    "name": "梅花",
+    "chapterId": "c13",
+    "groupId": "c13-01",
+    "nature": "平",
+    "flavors": [
+      "微酸"
+    ],
+    "meridians": [
+      "肝",
+      "胃",
+      "肺"
+    ],
+    "effects": "疏肝和中；化痰散结",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 50,
+      "printPage": 236
+    },
+    "details": {
+      "indications": {
+        "text": "1. 肝胃气滞的胁痛、抑郁心烦\n2. 梅核气等痰气互结证\n3. 某些瘰疬疮肿类病证",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 50,
+          "printPage": 236
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "usage": {
+        "text": "3～5g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 50,
+          "printPage": 236
+        },
+        "reviewStatus": "基于原PDF整理，待逐味终审"
+      },
+      "differentiation": {
+        "text": "疏肝理气兼化痰散结。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 50,
+          "printPage": 236
+        },
+        "reviewStatus": "总结性鉴别，需与考纲复核"
+      }
+    },
+    "reviewStatus": "已按教材页面整理，待逐味终审"
   }
 ]
