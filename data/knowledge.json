@@ -2767,5 +2767,192 @@
     ],
     "source": "学霸笔记—中药学",
     "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-001",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-001"
+    ],
+    "title": "附子·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-002",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-002"
+    ],
+    "title": "肉桂·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-003",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-003"
+    ],
+    "title": "干姜·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-004",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-004"
+    ],
+    "title": "吴茱萸·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-005",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-005"
+    ],
+    "title": "丁香·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-006",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-006"
+    ],
+    "title": "花椒·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-007",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-007"
+    ],
+    "title": "高良姜·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-008",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-008"
+    ],
+    "title": "小茴香·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-009",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-009"
+    ],
+    "title": "荜茇·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-010",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-010"
+    ],
+    "title": "荜澄茄·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c12-011",
+    "chapterId": "c12",
+    "herbIds": [
+      "herb-c12-011"
+    ],
+    "title": "胡椒·药性与应用",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "特殊禁忌"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
   }
 ]
