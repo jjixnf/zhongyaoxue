@@ -5104,5 +5104,1088 @@
       "printPage": 229
     },
     "reviewStatus": "结构化初稿·待逐味复核"
+  },
+  {
+    "id": "herb-c11-001",
+    "name": "茯苓",
+    "chapterId": "c11",
+    "groupId": "c11-01",
+    "nature": "平",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "心",
+      "肺",
+      "脾",
+      "肾"
+    ],
+    "effects": "利水渗湿；健脾补中；宁心安神",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 43,
+      "printPage": 229
+    },
+    "details": {
+      "indications": {
+        "text": "1. 用于水肿、尿少等水液停聚，无论寒热虚实均可随证配伍，利水时不易损伤正气\n2. 痰饮停留引起眩晕、心悸\n3. 脾虚夹湿的纳差、泄泻\n4. 心神失养所致失眠、心悸",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "10～15g，入汤剂煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "原书把肺经置于括号中，归经存在括注差异，检索时保留肺经但在此特别提示。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审",
+    "meridianNote": "教材肺经用括号标注，需保留原书这一差别"
+  },
+  {
+    "id": "herb-c11-002",
+    "name": "猪苓",
+    "chapterId": "c11",
+    "groupId": "c11-01",
+    "nature": "平",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "肾",
+      "膀胱"
+    ],
+    "effects": "利水渗湿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 43,
+      "printPage": 229
+    },
+    "details": {
+      "indications": {
+        "text": "1. 水肿、尿少、小便不利\n2. 水湿引起泄泻，以及淋证、带下",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "6～12g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "与茯苓对比：淡渗利水作用较突出，但没有茯苓的健脾安神补益特点。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-003",
+    "name": "泽泻",
+    "chapterId": "c11",
+    "groupId": "c11-01",
+    "nature": "寒",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "肾",
+      "膀胱"
+    ],
+    "effects": "利水渗湿；泄热；化浊降脂",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 43,
+      "printPage": 229
+    },
+    "details": {
+      "indications": {
+        "text": "1. 水肿、小便不利、痰饮眩晕、湿盛泄泻\n2. 下焦湿热的涩痛淋证，以及遗精、带下\n3. 高脂血症的相关应用",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "6～10g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "利湿兼泄热，下焦湿热更为适宜；与猪苓比较多了泄热、化浊降脂的特点。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 43,
+          "printPage": 229
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-004",
+    "name": "薏苡仁",
+    "chapterId": "c11",
+    "groupId": "c11-01",
+    "nature": "凉",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肺"
+    ],
+    "effects": "利水渗湿；健脾止泻；清热排脓；除痹；解毒散结",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 44,
+      "printPage": 230
+    },
+    "details": {
+      "indications": {
+        "text": "1. 脾虚湿盛引起水肿、小便不利、脚气肿胀，兼顾利水与健脾\n2. 湿困脾胃引起的泄泻\n3. 湿痹拘挛、筋脉不利，以及湿热痿证、肢体麻木软弱\n4. 湿温初起或暑湿在气分时的头重身困、胸闷\n5. 肺痈、肠痈的热毒脓肿\n6. 赘疣及书中列出的肿块应用",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "9～30g，煎服；生品偏于清热利湿，炒后偏于健脾止泻。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "原书提示孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-005",
+    "name": "香加皮",
+    "chapterId": "c11",
+    "groupId": "c11-01",
+    "nature": "温",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "肾",
+      "心"
+    ],
+    "effects": "利水消肿；祛风湿；强筋骨",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 44,
+      "printPage": 230
+    },
+    "details": {
+      "indications": {
+        "text": "1. 下肢水肿、尿少，兼心悸或气短\n2. 风寒湿痹、筋骨乏力、腰膝酸软",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "3～6g，煎服；亦见浸酒或丸散用法。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "本品有毒，不可过量；此为考试资料，不可依据所列剂量自行用药。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "toxicity": {
+        "text": "教材注明有毒，服用不得过量；并非个人用药指导。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-006",
+    "name": "枳椇子",
+    "chapterId": "c11",
+    "groupId": "c11-01",
+    "nature": "平",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "胃"
+    ],
+    "effects": "利水消肿；解酒毒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 44,
+      "printPage": 230
+    },
+    "details": {
+      "indications": {
+        "text": "1. 水肿\n2. 饮酒过量所致烦热、口渴等酒毒证，教材亦述醉酒相关呕吐等表现",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "10～15g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-007",
+    "name": "车前子",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "肾",
+      "肝",
+      "肺",
+      "小肠"
+    ],
+    "effects": "清热；利尿通淋；渗湿止泻；清肝明目；清肺化痰",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 44,
+      "printPage": 230
+    },
+    "details": {
+      "indications": {
+        "text": "1. 湿热淋证的尿频、涩痛，及水肿、小便不利\n2. 湿盛泄泻，尤其暑湿泻泄，可通过利小便以助止泻\n3. 肝热目赤肿痛、视物不清\n4. 肺热痰多、咳嗽",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "9～15g，煎服，宜包煎。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "原书提示肾虚精滑、体内无湿热者及孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-008",
+    "name": "滑石",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "寒",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "膀胱",
+      "肺",
+      "胃"
+    ],
+    "effects": "利尿通淋；清热解暑；收湿敛疮",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 44,
+      "printPage": 230
+    },
+    "details": {
+      "indications": {
+        "text": "1. 热淋、石淋等小便短赤涩痛\n2. 暑湿烦渴、湿温初起\n3. 湿热泄泻\n4. 皮肤湿疮、湿疹、痱子，外用收湿",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "10～20g；滑石块先煎，滑石粉宜包煎；外用适量。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "原书提示脾虚、热病伤津及孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-009",
+    "name": "木通",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "小肠",
+      "膀胱"
+    ],
+    "effects": "利尿通淋；清心除烦；通经下乳",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 44,
+      "printPage": 230
+    },
+    "details": {
+      "indications": {
+        "text": "1. 小便不利、淋证、水肿\n2. 心火上炎的口舌生疮、心烦尿赤\n3. 血瘀经闭、乳汁不下\n4. 湿热痹证、关节不利",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "3～6g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "孕妇慎用；津亏、精滑或无湿热者亦慎；不宜长期或大量服用。药材来源需严格鉴别，不可与含马兜铃酸的关木通混用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 44,
+          "printPage": 230
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-010",
+    "name": "通草",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "微寒",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "肺",
+      "胃"
+    ],
+    "effects": "利尿通淋；通气下乳",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 热淋、水肿与尿少\n2. 气机不畅的产后乳汁不下\n3. 湿温初起及暑温夹湿，出现胸闷不饥、头身困重、午后发热等",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "3～5g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-011",
+    "name": "瞿麦",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "心",
+      "小肠"
+    ],
+    "effects": "利尿通淋；活血通经",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 热淋、血淋、石淋等尿道涩痛或排尿困难\n2. 血瘀经闭、月经不调；血热夹瘀者可参考",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "9～15g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-012",
+    "name": "石韦",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "微寒",
+    "flavors": [
+      "苦",
+      "甘"
+    ],
+    "meridians": [
+      "肺",
+      "膀胱"
+    ],
+    "effects": "利尿通淋；清肺止咳；凉血止血",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 多种淋证，以血淋更具辨证特色\n2. 肺热咳喘\n3. 血热出血，例如咯吐血、尿血、崩漏",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "6～12g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-013",
+    "name": "萆薢",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "平",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肾",
+      "胃"
+    ],
+    "effects": "利湿去浊；祛风除痹；通络止痛",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 膏淋、带下、白浊等湿浊不分证\n2. 寒湿或湿热所致风湿痹痛、腰膝疼痛与关节不利",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "10～15g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "肾阴不足、遗精滑精者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-014",
+    "name": "海金沙",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "寒",
+    "flavors": [
+      "甘",
+      "咸"
+    ],
+    "meridians": [
+      "膀胱",
+      "小肠"
+    ],
+    "effects": "清利湿热；通淋止痛；利水消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 热淋、血淋、石淋、膏淋等多种淋证，特别注意排尿时尿道疼痛\n2. 水肿、小便不利",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "6～15g，煎服，需包煎。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "与金钱草对比：海金沙偏于通淋止痛、尿道涩痛，金钱草还可兼顾黄疸及石淋。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-015",
+    "name": "萹蓄",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "膀胱"
+    ],
+    "effects": "利尿通淋；杀虫止痒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 下焦湿热导致尿短赤、热淋血淋等\n2. 虫积腹痛及湿热所致湿疹、阴痒等",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "9～15g；鲜品用量可增加；外用煎汤洗。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-016",
+    "name": "地肤子",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "寒",
+    "flavors": [
+      "辛",
+      "苦"
+    ],
+    "meridians": [
+      "肾",
+      "膀胱"
+    ],
+    "effects": "清热利湿；祛风止痒",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 湿热淋证、小便不利\n2. 风疹、湿疹、阴痒、皮肤瘙痒等湿热瘙痒证",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "9～15g，煎服；外用可煎汤洗。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-017",
+    "name": "冬葵子",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "寒",
+    "flavors": [
+      "甘"
+    ],
+    "meridians": [
+      "大肠",
+      "小肠",
+      "膀胱"
+    ],
+    "effects": "清热；利尿通淋；下乳；润肠",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 小便不利、淋证、尿闭与水肿\n2. 产后乳汁不通、乳房胀痛\n3. 津亏或肠燥便秘",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "3～9g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "寒凉而滑利；脾虚便溏者及孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-018",
+    "name": "灯心草",
+    "chapterId": "c11",
+    "groupId": "c11-02",
+    "nature": "微寒",
+    "flavors": [
+      "甘",
+      "淡"
+    ],
+    "meridians": [
+      "心",
+      "肺",
+      "小肠"
+    ],
+    "effects": "利尿通淋；清心降火",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 湿热淋证、尿少涩痛，利尿力量较轻\n2. 心火偏盛的心烦失眠、小儿夜啼、口舌生疮",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "1～3g，煎服。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-019",
+    "name": "茵陈",
+    "chapterId": "c11",
+    "groupId": "c11-03",
+    "nature": "微寒",
+    "flavors": [
+      "苦",
+      "辛"
+    ],
+    "meridians": [
+      "脾",
+      "胃",
+      "肝",
+      "胆"
+    ],
+    "effects": "清利湿热；利胆退黄",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 45,
+      "printPage": 231
+    },
+    "details": {
+      "indications": {
+        "text": "1. 湿热黄疸且小便短少，阳黄尤其常用\n2. 湿温或暑湿证\n3. 湿疮瘙痒",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "6～15g，煎服；外用可煎液洗。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "蓄血发黄、血虚萎黄者慎用；应与湿热黄疸鉴别。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 45,
+          "printPage": 231
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-020",
+    "name": "金钱草",
+    "chapterId": "c11",
+    "groupId": "c11-03",
+    "nature": "微寒",
+    "flavors": [
+      "甘",
+      "咸"
+    ],
+    "meridians": [
+      "肝",
+      "胆",
+      "肾",
+      "膀胱"
+    ],
+    "effects": "利湿退黄；利尿通淋；解毒消肿",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 46,
+      "printPage": 232
+    },
+    "details": {
+      "indications": {
+        "text": "1. 湿热黄疸及胆胀胁痛\n2. 石淋、热淋与尿涩痛，石淋尤应记忆\n3. 痈肿疔疮、虫蛇咬伤",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "15～60g，煎服；外用适量。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-021",
+    "name": "虎杖",
+    "chapterId": "c11",
+    "groupId": "c11-03",
+    "nature": "微寒",
+    "flavors": [
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "胆",
+      "肺"
+    ],
+    "effects": "利湿退黄；清热解毒；散瘀止痛；化痰止咳；泻热通便",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 46,
+      "printPage": 232
+    },
+    "details": {
+      "indications": {
+        "text": "1. 湿热黄疸、淋浊带下\n2. 烫伤、疮痈、毒蛇咬伤\n3. 瘀阻经闭、跌扑损伤和风湿痹痛\n4. 肺热咳嗽\n5. 热结便秘",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "9～15g，煎服；外用可配制煎液或油膏。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "孕妇慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
+  },
+  {
+    "id": "herb-c11-022",
+    "name": "珍珠草",
+    "chapterId": "c11",
+    "groupId": "c11-03",
+    "nature": "凉",
+    "flavors": [
+      "甘",
+      "苦"
+    ],
+    "meridians": [
+      "肝",
+      "肺"
+    ],
+    "effects": "利湿退黄；清热解毒；明目；消积",
+    "source": {
+      "title": "学霸笔记—中药学",
+      "pdfPage": 46,
+      "printPage": 232
+    },
+    "details": {
+      "indications": {
+        "text": "1. 湿热黄疸、泄痢、淋证\n2. 痈肿疮毒及蛇犬咬伤\n3. 目赤肿痛\n4. 小儿疳积",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "usage": {
+        "text": "15～30g；鲜品30～60g；外用适量。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      },
+      "cautions": {
+        "text": "阳虚体弱者慎用。",
+        "source": {
+          "title": "学霸笔记—中药学",
+          "pdfPage": 46,
+          "printPage": 232
+        },
+        "reviewStatus": "按PDF原页整理，待最终逐项复核"
+      }
+    },
+    "reviewStatus": "按原书页面整理，尚待逐味终审"
   }
 ]
