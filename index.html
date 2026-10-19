@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="本草研习：按教材章节浏览中药性味归经，并关联个人错题、笔记与日期。">
+<title>本草研习 · 中药学知识库</title>
+<link rel="stylesheet" href="./styles.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="brand-mark">本</span><div><h1>本草研习</h1><p>中医考研 · 中药学知识库</p></div></div>
+  <div class="top-actions"><span id="syncBadge" class="tiny-label">公开资料 · 本地笔记</span><button type="button" id="exportBtn" class="secondary">导出我的记录</button></div>
+</header>
+<div class="layout">
+  <aside class="panel nav-panel">
+    <div class="section-heading"><h2>教材章节</h2><span id="chapterCount" class="muted"></span></div>
+    <nav id="chapterNav" aria-label="章节列表"></nav>
+    <p class="mini-note">按《学霸笔记—中药学》排列。未录入的章节保留目录，不显示虚构药物。</p>
+  </aside>
+  <main class="panel workspace">
+    <div class="section-heading"><div><h2>中药检索</h2><p class="muted">从性味归经出发，连接相关错题与笔记</p></div><span id="herbCount" class="tiny-label"></span></div>
+    <label class="sr-only" for="searchInput">全局搜索</label>
+    <input id="searchInput" class="search" type="search" placeholder="搜索药名、性味、归经、功效、错题和笔记……" autocomplete="off">
+    <div class="filters">
+      <label>性 <select id="natureFilter"><option value="">全部</option><option>温</option><option>微温</option><option>热</option><option>寒</option><option>微寒</option><option>凉</option><option>平</option></select></label>
+      <label>归经 <select id="meridianFilter"><option value="">全部</option><option>心</option><option>肝</option><option>脾</option><option>肺</option><option>肾</option><option>胃</option><option>胆</option><option>膀胱</option><option>大肠</option><option>小肠</option><option>三焦</option><option>心包</option></select></label>
+      <button id="resetFilters" class="ghost" type="button">清除筛选</button>
+    </div>
+    <div id="coverage" class="coverage" aria-live="polite"></div>
+    <div class="two-column">
+      <section class="list-panel" aria-label="中药列表"><div class="list-title">药物列表 <span id="resultCount" class="muted"></span></div><div id="herbList"></div></section>
+      <section class="detail-panel" id="detailPanel" aria-live="polite"><div class="placeholder">← 选择一味药，查看性味归经、功效、关联错题与笔记。</div></section>
+    </div>
+    <section id="searchExtras" class="extra-results" hidden><h3>匹配的知识点、错题与笔记</h3><div id="extraList"></div></section>
+  </main>
+  <aside class="right-column">
+    <section class="panel">
+      <div class="section-heading"><h2>每日新增</h2><button id="todayBtn" class="ghost" type="button">今天</button></div>
+      <div class="cal-head"><button id="prevMonth" aria-label="上个月" type="button">‹</button><strong id="monthTitle"></strong><button id="nextMonth" aria-label="下个月" type="button">›</button></div>
+      <div class="calendar" id="calendar" aria-label="学习记录日历"></div>
+      <div id="dayEvents" class="day-events"></div>
+      <p class="mini-note">点击日期查看新增内容；复习间隔由你自行安排。</p>
+    </section>
+    <section class="panel">
+      <div class="section-heading"><h2>错题 · 笔记</h2><span id="recordCount" class="tiny-label"></span></div>
+      <div class="button-pair"><button class="primary" id="newQuestion" type="button">＋错题</button><button id="newNote" type="button">＋笔记</button></div>
+      <p class="mini-note">可以关联多味药和多个知识点。本机新增资料先保存在当前浏览器，导出后可整理进 GitHub。</p>
+      <div id="recentRecords"></div>
+      <div class="button-pair"><button id="importBtn" class="ghost" type="button">导入备份</button><input id="importFile" type="file" accept="application/json" hidden></div>
+    </section>
+    <section class="panel ai-card">
+      <div class="section-heading"><h2>AI 本草助手</h2><span>✦</span></div>
+      <p class="muted">先精确检索知识库，再利用 AI 分析错题。可安全连接自己的 API 中转服务。</p>
+      <textarea id="aiQuestion" rows="3" placeholder="例如：请对比麻黄和桂枝的归经，引用我的笔记"></textarea>
+      <div class="button-pair"><button id="askAi" class="primary" type="button">发送给 AI</button><button id="copyContext" type="button">复制上下文</button></div>
+      <div class="button-pair"><button id="aiSettingsBtn" class="ghost" type="button">配置 API</button><button id="chatGptBtn" class="ghost" type="button">打开 ChatGPT ↗</button></div>
+      <div id="aiStatus" class="muted" role="status"></div>
+      <div id="aiResponse" class="ai-response" hidden></div>
+    </section>
+  </aside>
+</div>
+<dialog id="editDialog">
+ <form id="recordForm">
+ <div class="dialog-title"><h2 id="dialogTitle">新增学习记录</h2><button type="button" data-close="editDialog" aria-label="关闭">×</button></div>
+ <input type="hidden" id="recordId">
+ <label>记录类型<select id="recordKind"><option value="question">错题</option><option value="note">笔记</option></select></label>
+ <label>标题<input id="recordTitle" maxlength="160" required placeholder="例如：麻黄与桂枝归经辨析"></label>
+ <label>题目 / 笔记正文<textarea id="recordBody" rows="5" required></textarea></label>
+ <label>答案（错题可填）<textarea id="recordAnswer" rows="2"></textarea></label>
+ <label>分析、错误原因或个人总结<textarea id="recordAnalysis" rows="3"></textarea></label>
+ <label>关联中药（可多选）<select multiple id="recordHerbs" size="7"></select></label>
+ <label>关联知识点（可多选）<select multiple id="recordKnowledge" size="5"></select></label>
+ <p class="mini-note">Windows 按 Ctrl、Mac 按 Command 可同时选择多个条目。</p>
+ <div class="dialog-actions"><button type="button" data-close="editDialog">取消</button><button class="primary" type="submit">保存</button></div>
+ </form>
+</dialog>
+<dialog id="viewDialog">
+  <div class="dialog-title"><h2 id="viewTitle"></h2><button type="button" data-close="viewDialog">×</button></div>
+  <div id="viewContent"></div>
+  <div class="dialog-actions"><button type="button" id="editRecordBtn">编辑此记录</button><button type="button" data-close="viewDialog">关闭</button></div>
+</dialog>
+<dialog id="settingsDialog">
+ <div class="dialog-title"><h2>AI 接口配置</h2><button type="button" data-close="settingsDialog">×</button></div>
+ <p class="mini-note"><strong>请勿输入 OpenAI API Key。</strong>这里应填写你自行部署的受保护 Worker 地址和独立访问令牌。访问令牌仅在当前标签页内存中保存，刷新即清除。</p>
+ <label>HTTPS 中转服务地址<input id="aiEndpoint" placeholder="https://your-worker.example.workers.dev/chat" type="url"></label>
+ <label>独立访问令牌<input id="aiAccessToken" type="password" autocomplete="off" placeholder="Worker ACCESS_TOKEN，不是 OpenAI API Key"></label>
+ <div class="dialog-actions"><button type="button" data-close="settingsDialog">取消</button><button id="saveAiSettings" class="primary" type="button">保存设置</button></div>
+</dialog>
+<footer>本草研习 · 数据源：《学霸笔记—中药学》 · 资料持续校对中。个人记录仅在当前浏览器，记得导出备份。</footer>
+</body></html>
