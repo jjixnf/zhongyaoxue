@@ -2954,5 +2954,345 @@
     ],
     "source": "学霸笔记—中药学",
     "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-001",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-001"
+    ],
+    "title": "陈皮·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-002",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-002"
+    ],
+    "title": "青皮·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-003",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-003"
+    ],
+    "title": "枳实·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-004",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-004"
+    ],
+    "title": "枳壳·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-005",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-005"
+    ],
+    "title": "木香·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-006",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-006"
+    ],
+    "title": "香附·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-007",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-007"
+    ],
+    "title": "乌药·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-008",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-008"
+    ],
+    "title": "沉香·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-009",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-009"
+    ],
+    "title": "檀香·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-010",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-010"
+    ],
+    "title": "川楝子·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-011",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-011"
+    ],
+    "title": "薤白·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-012",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-012"
+    ],
+    "title": "荔枝核·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-013",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-013"
+    ],
+    "title": "佛手·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-014",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-014"
+    ],
+    "title": "香橼·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-015",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-015"
+    ],
+    "title": "玫瑰花·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-016",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-016"
+    ],
+    "title": "大腹皮·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-017",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-017"
+    ],
+    "title": "柿蒂·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-018",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-018"
+    ],
+    "title": "刀豆·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-019",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-019"
+    ],
+    "title": "甘松·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
+  },
+  {
+    "id": "kp-herb-c13-020",
+    "chapterId": "c13",
+    "herbIds": [
+      "herb-c13-020"
+    ],
+    "title": "梅花·理气类药物详解",
+    "tags": [
+      "性味归经",
+      "功效",
+      "主治病证",
+      "用法用量",
+      "辨析"
+    ],
+    "source": "学霸笔记—中药学",
+    "reviewStatus": "待逐味终审"
   }
 ]
