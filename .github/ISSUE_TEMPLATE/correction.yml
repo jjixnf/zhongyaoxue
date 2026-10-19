@@ -1,0 +1,45 @@
+name: "🔍 资料纠错与细节补充"
+description: "补充用法、主治、禁忌、配伍或修正药性归经"
+title: "[纠错/补充] "
+body:
+  - type: input
+    id: herb
+    attributes:
+      label: "相关药物"
+      placeholder: "例如：麻黄"
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: "修改或补充的字段"
+      options:
+        - "四气 / 五味"
+        - "归经"
+        - "功效"
+        - "主治"
+        - "用法用量"
+        - "使用注意 / 禁忌"
+        - "配伍 / 鉴别"
+        - "其他"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: "当前内容或问题（如有）"
+    validations:
+      required: false
+  - type: textarea
+    id: proposed
+    attributes:
+      label: "建议内容"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "依据 / 版本 / 页码"
+      description: "纠错建议尽量给出可核查出处"
+    validations:
+      required: true
