@@ -70,6 +70,7 @@ function renderHerbList(){
  const search=$("searchInput").value.trim().toLowerCase();
  const directory=Object.values(db.catalog.chapters||{}).flat().filter(x=>activeChapter==="all"||x.chapterId===activeChapter);
  const pending=hasFilters?[]:directory.filter(x=>!db.herbs.some(h=>h.name===x.name&&h.chapterId===x.chapterId)&&(!search||x.name.toLowerCase().includes(search)));
+ if(activePending && !pending.some(p=>p.name===activePending))activePending=null;
  $("herbCount").textContent=db.herbs.length+" 味已有详情 · 全书目录 "+directory.length+" 味";
  $("resultCount").textContent=(matches.length+pending.length)+" 条";
  const c=chapterById(activeChapter);
