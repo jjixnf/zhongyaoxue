@@ -191,7 +191,7 @@
         "title": "清热药",
         "summary": "按清热泻火、燥湿、解毒、凉血和清虚热分组，重点区分所针对的热证。",
         "pdfPages": [
-          16
+          17
         ],
         "relatedChapterId": "c07"
       },
@@ -200,7 +200,7 @@
         "title": "泻下药",
         "summary": "按照攻下、润下和峻下逐水区分作用强度、适应证与使用注意。",
         "pdfPages": [
-          16
+          17
         ],
         "relatedChapterId": "c08"
       },
@@ -218,7 +218,7 @@
         "title": "化湿药",
         "summary": "重点关注湿阻中焦与芳香化湿类药物的作用特点。",
         "pdfPages": [
-          17
+          18
         ],
         "relatedChapterId": "c10"
       },
@@ -227,7 +227,7 @@
         "title": "利水渗湿药",
         "summary": "围绕水湿停聚、淋证及湿热等证候分类理解。",
         "pdfPages": [
-          17
+          18
         ],
         "relatedChapterId": "c11"
       },
@@ -245,7 +245,7 @@
         "title": "理气药",
         "summary": "从气滞与气逆的证候差异理解行气与降气。",
         "pdfPages": [
-          18
+          19
         ],
         "relatedChapterId": "c13"
       },
@@ -254,7 +254,7 @@
         "title": "消食药",
         "summary": "重在食积内停及不同食积类型的选药。",
         "pdfPages": [
-          18
+          19
         ],
         "relatedChapterId": "c14"
       },
@@ -272,7 +272,7 @@
         "title": "止血药",
         "summary": "按凉血、化瘀、收敛、温经止血等类归纳。",
         "pdfPages": [
-          19
+          20
         ],
         "relatedChapterId": "c16"
       },
@@ -281,7 +281,7 @@
         "title": "活血化瘀药",
         "summary": "以血瘀证为主线，根据行血、止痛、调经、消癥等方向比较。",
         "pdfPages": [
-          19
+          20
         ],
         "relatedChapterId": "c17"
       },
@@ -299,7 +299,7 @@
         "title": "安神药",
         "summary": "从神志不宁等病证出发，比较重镇与养心安神。",
         "pdfPages": [
-          20
+          21
         ],
         "relatedChapterId": "c19"
       },
@@ -308,7 +308,7 @@
         "title": "平肝息风药",
         "summary": "比较平肝潜阳和息风止痉的证候及用药差异。",
         "pdfPages": [
-          20
+          21
         ],
         "relatedChapterId": "c20"
       },
@@ -317,7 +317,7 @@
         "title": "开窍药",
         "summary": "以闭证神昏的开窍醒神为主，注意药性和使用条件。",
         "pdfPages": [
-          21
+          22
         ],
         "relatedChapterId": "c21"
       },
@@ -326,7 +326,7 @@
         "title": "补益药",
         "summary": "按补气、补阳、补血、补阴区分正虚类型。",
         "pdfPages": [
-          21
+          22
         ],
         "relatedChapterId": "c22"
       },
@@ -335,7 +335,7 @@
         "title": "收涩药",
         "summary": "关注自汗、久咳、久泻、遗精等滑脱失禁病证。",
         "pdfPages": [
-          21
+          23
         ],
         "relatedChapterId": "c23"
       },
@@ -344,7 +344,7 @@
         "title": "涌吐药",
         "summary": "整理涌吐适应证与严格的安全注意事项。",
         "pdfPages": [
-          22
+          23
         ],
         "relatedChapterId": "c24"
       },
@@ -353,7 +353,7 @@
         "title": "攻毒杀虫止痒药",
         "summary": "主要围绕疮疡、疥癣与虫毒等外治场景。",
         "pdfPages": [
-          22
+          23
         ],
         "relatedChapterId": "c25"
       },
@@ -362,7 +362,7 @@
         "title": "拔毒化腐生肌药",
         "summary": "以疮疡溃后去腐生肌为主，重点注意外用方法与毒性。",
         "pdfPages": [
-          22
+          24
         ],
         "relatedChapterId": "c26"
       }
