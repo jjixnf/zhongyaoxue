@@ -22,7 +22,7 @@ for(const h of herbs){
  if(h.details!==undefined){
   check(h.details!==null&&typeof h.details==="object"&&!Array.isArray(h.details),"details must be object "+h.id);
   for(const [field,entry] of Object.entries(h.details||{})){
-   check(["indications","usage","cautions","pairings","differentiation"].includes(field),"unknown details field "+field+" for "+h.id);
+   check(["indications","usage","cautions","pairings","differentiation","processing","toxicity","specialNotes"].includes(field),"unknown details field "+field+" for "+h.id);
    check(entry&&typeof entry.text==="string"&&entry.text.trim().length>0,"details text missing "+field+" for "+h.id);
    check(entry&&typeof entry.source?.title==="string"&&entry.source.title.trim().length>0,"details source title missing "+field+" for "+h.id);
    check(entry&&Number.isInteger(entry.source?.printPage),"details source page missing "+field+" for "+h.id);
