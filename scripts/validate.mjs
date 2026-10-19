@@ -22,6 +22,19 @@ for(const h of herbs){
  validateSource(h.source,h.id,check);
  if(h.details!==undefined)validateDetails(h.details,h.id,check);
 }
+const catalog=read("catalog");
+const catalogNames=Object.values(catalog.chapters||{}).flat();
+check(catalogNames.length===catalog.total,"catalog total does not match chapters");
+check(catalogNames.length>=391,"catalog unexpectedly shrank");
+const catalogKeys=new Set();
+for(const entry of catalogNames){
+ check(cid.has(entry.chapterId),"unknown catalog chapter "+entry.chapterId);
+ check(Number.isInteger(entry.pdfPage)&&entry.pdfPage>0,"missing catalog PDF page "+entry.name);
+ const key=entry.chapterId+"::"+entry.name;
+ check(!catalogKeys.has(key),"duplicate catalog item "+key);
+ catalogKeys.add(key);
+}
+for(const h of herbs)check(catalogKeys.has(h.chapterId+"::"+h.name),"structured herb not indexed "+h.name);
 const theoryTopics=new Set();
 for(const section of theory){
  check(cid.has(section.chapterId),"theory chapter missing "+section.chapterId);
