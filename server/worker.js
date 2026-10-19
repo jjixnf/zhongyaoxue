@@ -16,7 +16,8 @@ export default {
   let input;
   try{input=await request.json();}catch{return response({error:"Invalid JSON"},400);}
   const question=String(input?.question||"").slice(0,1800).trim();
-  const context=String(input?.context||"").slice(0,11500).trim();
+  const context=String(input?.context||"");
+  if(context.length>11500)return response({error:"资料超过11500字符上限，未截断。请复制完整上下文，或减少关联记录后重试。"},413);
   if(!question)return response({error:"Missing question"},400);
   const upstream=await fetch("https://api.openai.com/v1/chat/completions",{
    method:"POST",

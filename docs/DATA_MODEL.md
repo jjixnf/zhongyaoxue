@@ -5,7 +5,8 @@
 | 集合 | 关键字段 | 说明 |
 |---|---|---|
 | chapters | id,number,title,groups,type | 完整26章目录，前5章为theory类型，后21章为药物分类 |
-| theory | chapterId,title,pdfPages,topics | 前五章理论知识点的原创概要与PDF页码，topic.id稳定 |\n| herbs | id,name,chapterId,groupId,nature,flavors,meridians,effects,source,reviewStatus | 以《学霸笔记—中药学》印刷页码为准，未核对标“待逐味复核” |
+| theory | chapterId,title,pdfPages,topics | 前五章理论知识点的原创概要与PDF页码，topic.id稳定 |
+| herbs | id,name,chapterId,groupId,nature,flavors,meridians,effects,source,reviewStatus | 以《学霸笔记—中药学》印刷页码为准，未核对标“待逐味复核” |
 | knowledge | id,chapterId,herbIds,title,tags | 独立考点，可挂多个药 |
 | questions / notes | id,type,title,body,answer,analysis,herbIds,knowledgeIds,createdAt,updatedAt | 多对多关联；原题注明来源，个人笔记和 AI 总结须分层 |
 | events | id,date,eventType,entityType,entityId,label | 日期以 Asia/Shanghai 为基准；新增与修改不能混为一谈 |
@@ -34,7 +35,7 @@
     "indications": {
       "text": "此处只能填写已核对来源的主治内容",
       "source": {"title": "资料书名", "printPage": 123},
-      "reviewStatus": "已复核"
+      "reviewStatus": "待复核"
     },
     "usage": {"text": "经核实的用法用量", "source": {"title": "资料书名", "printPage": 123}},
     "cautions": {"text": "经核实的使用注意", "source": {"title": "资料书名", "printPage": 123}},
@@ -46,8 +47,31 @@
 
 上述仅为字段结构示范，不是任何真实药物的内容。无来源的字段**不要创建或填充**。网站会显示未录入提示；横向比较中未收录字段显示“尚待补充”。不得把药理推测作为学霸笔记原文，也不把原书未写明的内容补成“教材事实”。
 
+### 分条事实与字段级溯源
+
+每节可增加 `items: [{label, text, source?, reviewStatus?}]`。有 `items` 时，兼容字段 `text` 必须严格等于 `items.map(item => item.label + "：" + item.text).join("\n")`，保存全部事实及限定条件，不能只留短摘要。旧有仅 `text` 的条目继续支持。页面、搜索、复制和横向对比都读取完整条目。
+
+每节必须保留独立 `source`；单条未提供 `source` 或 `reviewStatus` 时继承该节对应元数据。提供 `source` 即替换为该条完整来源，不能把其他页面的复核证据混入。来源结构：
+
+```json
+{
+  "title": "资料书名",
+  "printPage": 123,
+  "pdfPage": 9,
+  "verification": {
+    "method": "pdf-visual",
+    "verifiedAt": "2026-10-19",
+    "scope": "具体已核对的栏位、事实和仍未解决的问题"
+  }
+}
+```
+
+页码必须为正整数；`pdfPage` 从1计数，不是数组下标。已复核字段/条目须有 `pdfPage` 和有效的 `verification`（人工对照 PDF 图像、真实日期、具体范围），OCR 结果本身不能视为复核。`verification` 记录核对动作，`reviewStatus` 记录结论状态，两者不能混同：图像已比对但原书跨页冲突仍可为“待差异核对”。药物总状态与各节独立；部分字段已复核不升级整味药。
+
+出处与校对数据集中在详情底部默认折叠的「资料出处与校对」入口。重要事实疑点必须同时写入可见条目，保留各处页码和差异，不藏在维护提示里。本次麻黄 `cautions` 保留198页与210页的慎/禁用差异，尚待核清；不得将其标为已终审。
+
 ## 网站功能补充
-- `compare.js` 负责纯前端横向对比；2–4味药，按四气、五味、归经、功效、用法、注意、主治进行列对齐。黄色仅表示字符串内容不同，不意味着医学上的矛盾。
+- `compare.js` 负责纯前端横向对比；2–4味药，按四气、五味、归经、功效、主治、用法、炮制、注意、配伍、辨析、毒性及其他考点列对齐。黄色仅表示字符串内容不同，不意味着医学上的矛盾。
 - 在线提交入口采用 GitHub Issue Forms，见 `docs/WORKFLOW.md`；提交 Issue 不会自动合并入正式知识库。
 
 ## 完整教材录入原则

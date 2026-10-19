@@ -25,5 +25,14 @@
     "entityId": "c06",
     "count": 9,
     "label": "扩充解表药9味的主治、用法和使用注意（待终审）"
+  },
+  {
+    "id": "event-mahuang-detail-review-20261019",
+    "date": "2026-10-19",
+    "eventType": "dataset_update",
+    "entityType": "herb",
+    "entityId": "herb-mahuang",
+    "count": 1,
+    "label": "麻黄：分条核对主治、用量、炮制及相须配伍；修正运动员禁用，记录原书慎/禁用差异（整味仍待核全）"
   }
 ]
