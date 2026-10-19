@@ -185,10 +185,18 @@ $("recordForm").onsubmit=(e)=>{
 };
 function contextForHerb(h){
  const attached=linkedRecords(h).slice(0,20);
- return "【资料来源】《学霸笔记—中药学》印刷页"+h.source.printPage+"（数据库待逐味复核）\n【药名】"+h.name+"\n【性】"+h.nature+"\n【味】"+h.flavors.join("、")+"\n【归经】"+h.meridians.join("、")+"\n【功效】"+h.effects+"\n【错题和笔记】\n"+(attached.length?attached.map(r=>"["+r.type+"] "+r.title+"\n"+r.body+"\n"+(r.analysis||"")).join("\n---\n"):"暂无");
+ return "【资料来源】《学霸笔记—中药学》印刷页"+h.source.printPage+"（数据库待逐味复核）\n【药名】"+h.name+"\n【性】"+h.nature+"\n【味】"+h.flavors.join("、")+"\n【归经】"+h.meridians.join("、")+"\n【功效】"+h.effects+"\n【主治、用法等已录入细节】\n"+Object.entries(h.details||{}).map(([k,v])=>k+"："+(v.text||"")+"（"+(v.reviewStatus||"待复核")+"）").join("\n")+"\n【错题和笔记】\n"+(attached.length?attached.map(r=>"["+r.type+"] "+r.title+"\n"+r.body+"\n"+(r.analysis||"")).join("\n---\n"):"暂无");
 }
 function aiContext(){
- let h=herbById(activeHerb);
+ const section=db.theory.find(x=>x.chapterId===activeChapter);
+ if(section){
+  const t=section.topics.find(x=>x.id===activeTopic);
+  const linked=records().filter(r=>(r.knowledgeIds||[]).includes("kp-"+(t?.id||"")));
+  return ("【资料来源】《学霸笔记—中药学》前五章主题概要（仍在扩充）\n【章节】"+section.title+"\n【主题】"+(t?.title||"")+
+  "\n【知识点概要】"+(t?.summary||"")+"\n【原 PDF 页码】"+(t?.pdfPages.join("、")||"")+
+  "\n【关联错题与笔记】\n"+linked.map(r=>r.title+"："+r.body).join("\n")).slice(0,10000);
+ }
+ const h=herbById(activeHerb);
  if(h)return contextForHerb(h).slice(0,10000);
  return matchingHerbs().slice(0,12).map(contextForHerb).join("\n\n").slice(0,10000)||"没有相关知识库内容";
 }
