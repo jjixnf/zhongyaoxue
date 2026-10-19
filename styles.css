@@ -20,3 +20,5 @@
 .herb-extra dt{font-weight:650;color:#335e48;margin:10px 0 3px}
 .herb-extra dd{margin:0 0 8px;white-space:pre-wrap;line-height:1.7}
 @media(max-width:740px){.compare-dialog{padding:14px}.comparison-candidates{grid-template-columns:repeat(2,minmax(0,1fr))}.heading-actions{justify-content:flex-start}}
+
+.online-issue-link{display:block;text-align:center;padding:10px 8px;border-radius:10px;border:1px solid #b4d5ba;background:#eaf6eb;text-decoration:none;color:#226244;font-weight:600;margin-top:10px}.online-issue-link:hover{background:#dff0e2}
