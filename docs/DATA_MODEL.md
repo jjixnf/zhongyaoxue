@@ -55,3 +55,5 @@
 - 目前前五章理论先录主题概要，后续逐节补全考研知识要点。药物条目逐味填写主治、用量、注意、配伍、鉴别等字段，逐项标记原书页码和复核状态。
 - 知识点文件 `data/knowledge.json` 同时保存 `kp-t0*` 理论节点和 `kp-herb-*` 药物节点；一条笔记或错题可关联多个节点。
 - 用户无需自行在网站提交，一切新增资料先经过助手分析和来源复核，再提交 GitHub。
+
+**扩展字段约定**：`details.processing`（炮制与用法特点）、`details.toxicity`（毒性）、`details.specialNotes`（其他教材特有考点）采用同一 `{text,source,reviewStatus}` 结构；未核对不填。药物 `syllabusLevel` 保留原书 * 重点标记，不能把所有药物默认为同一级。
