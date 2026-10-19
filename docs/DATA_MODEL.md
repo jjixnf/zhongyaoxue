@@ -4,7 +4,7 @@
 
 | 集合 | 关键字段 | 说明 |
 |---|---|---|
-| chapters | id,number,title,groups,type | 完整26章目录，前5章为theory类型，后21章为药物分类 |
+| catalog | chapters, total，条目包含 name、chapterId、pdfPage、printedPage、status | 391条药名索引，只用于定位未录入条目，不得冒充核对完成的药物档案 |\n| chapters | id,number,title,groups,type | 完整26章目录，前5章为theory类型，后21章为药物分类 |
 | theory | chapterId,title,pdfPages,topics | 前五章理论知识点的原创概要与PDF页码，topic.id稳定 |
 | herbs | id,name,chapterId,groupId,nature,flavors,meridians,effects,source,reviewStatus | 以《学霸笔记—中药学》印刷页码为准，未核对标“待逐味复核” |
 | knowledge | id,chapterId,herbIds,title,tags | 独立考点，可挂多个药 |
