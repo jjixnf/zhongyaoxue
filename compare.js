@@ -18,7 +18,9 @@
     {title:"功效",get:h=>h.effects||""},
     {title:"用法用量",get:h=>h.details?.usage?.text||""},
     {title:"使用注意",get:h=>h.details?.cautions?.text||""},
-    {title:"主治病证",get:h=>h.details?.indications?.text||""}
+    {title:"主治病证",get:h=>h.details?.indications?.text||""},
+    {title:"炮制与用法特点",get:h=>h.details?.processing?.text||""},
+    {title:"毒性",get:h=>h.details?.toxicity?.text||""}
   ];
   const sync=()=>{
     count.textContent="已选 "+selected.size+"/4 味（至少2味）";
