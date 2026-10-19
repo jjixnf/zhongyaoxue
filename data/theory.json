@@ -1,0 +1,371 @@
+[
+  {
+    "chapterId": "c01",
+    "title": "中药学的起源与发展",
+    "pdfPages": [
+      1,
+      2
+    ],
+    "topics": [
+      {
+        "id": "t01-concepts",
+        "title": "中药、本草与中药学",
+        "summary": "区分中药这一研究对象、本草这一历史称谓，以及中药学所研究的来源、采制、性能、应用等内容。",
+        "pdfPages": [
+          1
+        ]
+      },
+      {
+        "id": "t01-history",
+        "title": "历代本草文献及贡献",
+        "summary": "按历史阶段掌握重要本草著作、作者、载药情况、学术贡献和历史地位；重点区分官修本草、药典性著作与纲目体例。",
+        "pdfPages": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "chapterId": "c02",
+    "title": "中药的产地、采集与炮制",
+    "pdfPages": [
+      3,
+      7
+    ],
+    "topics": [
+      {
+        "id": "t02-origin",
+        "title": "道地药材与产地",
+        "summary": "重点理解道地药材的品质与地域特点，以及产地、药材质量和疗效之间的关系。",
+        "pdfPages": [
+          3
+        ]
+      },
+      {
+        "id": "t02-collect",
+        "title": "不同药用部位的采收",
+        "summary": "按全草、叶、花、果实种子、根茎等药用部位整理采收时机及影响品质的因素。",
+        "pdfPages": [
+          3,
+          4
+        ]
+      },
+      {
+        "id": "t02-processing",
+        "title": "炮制目的与方法",
+        "summary": "辨析炮制对毒性、药性、功效和使用便利性的影响，按水制、火制、水火共制等类别归纳。",
+        "pdfPages": [
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "chapterId": "c03",
+    "title": "药性理论",
+    "pdfPages": [
+      8,
+      10
+    ],
+    "topics": [
+      {
+        "id": "t03-four-natures",
+        "title": "四气",
+        "summary": "理解寒热温凉及平性，结合寒热病证辨别药性和相应的选药原则。",
+        "pdfPages": [
+          8
+        ]
+      },
+      {
+        "id": "t03-five-flavors",
+        "title": "五味",
+        "summary": "梳理辛、甘、酸、苦、咸及淡、涩的作用取向，结合药物的实际功效理解五味配合。",
+        "pdfPages": [
+          8,
+          9
+        ]
+      },
+      {
+        "id": "t03-meridians",
+        "title": "归经",
+        "summary": "归经反映药物对脏腑经络的作用倾向，需和药物具体主治、脏腑经络联系记忆。",
+        "pdfPages": [
+          9
+        ]
+      },
+      {
+        "id": "t03-ascending",
+        "title": "升降浮沉",
+        "summary": "从作用趋向、病位、病势、四气五味、药物质地、炮制和配伍角度理解升降浮沉。",
+        "pdfPages": [
+          9,
+          10
+        ]
+      },
+      {
+        "id": "t03-toxicity",
+        "title": "中药毒性及用药风险",
+        "summary": "注意毒性的含义、引起不良反应的因素，以及剂量、炮制、配伍和使用方法中的安全原则。",
+        "pdfPages": [
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "chapterId": "c04",
+    "title": "中药的配伍及用法",
+    "pdfPages": [
+      11,
+      16
+    ],
+    "topics": [
+      {
+        "id": "t04-compatibility",
+        "title": "七情配伍",
+        "summary": "比较单行、相须、相使、相畏、相杀、相恶、相反的逻辑关系和常考配伍实例。",
+        "pdfPages": [
+          11
+        ]
+      },
+      {
+        "id": "t04-contraindication",
+        "title": "配伍与妊娠等用药禁忌",
+        "summary": "整理十八反、十九畏、妊娠用药禁忌、证候禁忌和服药饮食禁忌，注意教材版本和表述差异。",
+        "pdfPages": [
+          12,
+          13
+        ]
+      },
+      {
+        "id": "t04-dosage",
+        "title": "用药剂量及影响因素",
+        "summary": "理解药材性能、剂型、配伍、患者年龄体质与病情对剂量选择的影响。具体数值须逐味核对。",
+        "pdfPages": [
+          13,
+          14
+        ]
+      },
+      {
+        "id": "t04-decoction",
+        "title": "煎煮方法与特殊入药法",
+        "summary": "按先煎、后下、包煎、另煎、烊化、泡服、冲服等归类；与相关中药用法字段互相链接。",
+        "pdfPages": [
+          14,
+          15
+        ]
+      },
+      {
+        "id": "t04-administration",
+        "title": "服药时间与方法",
+        "summary": "依据服药时间、剂型、病情以及服药目的区分用法，保留需要核对的特殊情况。",
+        "pdfPages": [
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "chapterId": "c05",
+    "title": "各类药物总论",
+    "pdfPages": [
+      16,
+      24
+    ],
+    "topics": [
+      {
+        "id": "t05-class-01",
+        "title": "解表药",
+        "summary": "主用于外感表证，按发散风寒与发散风热分辨。",
+        "pdfPages": [
+          16
+        ],
+        "relatedChapterId": "c06"
+      },
+      {
+        "id": "t05-class-02",
+        "title": "清热药",
+        "summary": "按清热泻火、燥湿、解毒、凉血和清虚热分组，重点区分所针对的热证。",
+        "pdfPages": [
+          16
+        ],
+        "relatedChapterId": "c07"
+      },
+      {
+        "id": "t05-class-03",
+        "title": "泻下药",
+        "summary": "按照攻下、润下和峻下逐水区分作用强度、适应证与使用注意。",
+        "pdfPages": [
+          16
+        ],
+        "relatedChapterId": "c08"
+      },
+      {
+        "id": "t05-class-04",
+        "title": "祛风湿药",
+        "summary": "以风湿痹证为主要切入点，比较祛风寒湿、祛风湿热及强筋骨类别。",
+        "pdfPages": [
+          17
+        ],
+        "relatedChapterId": "c09"
+      },
+      {
+        "id": "t05-class-05",
+        "title": "化湿药",
+        "summary": "重点关注湿阻中焦与芳香化湿类药物的作用特点。",
+        "pdfPages": [
+          17
+        ],
+        "relatedChapterId": "c10"
+      },
+      {
+        "id": "t05-class-06",
+        "title": "利水渗湿药",
+        "summary": "围绕水湿停聚、淋证及湿热等证候分类理解。",
+        "pdfPages": [
+          17
+        ],
+        "relatedChapterId": "c11"
+      },
+      {
+        "id": "t05-class-07",
+        "title": "温里药",
+        "summary": "主要围绕里寒证，区分温中散寒、回阳等作用。",
+        "pdfPages": [
+          18
+        ],
+        "relatedChapterId": "c12"
+      },
+      {
+        "id": "t05-class-08",
+        "title": "理气药",
+        "summary": "从气滞与气逆的证候差异理解行气与降气。",
+        "pdfPages": [
+          18
+        ],
+        "relatedChapterId": "c13"
+      },
+      {
+        "id": "t05-class-09",
+        "title": "消食药",
+        "summary": "重在食积内停及不同食积类型的选药。",
+        "pdfPages": [
+          18
+        ],
+        "relatedChapterId": "c14"
+      },
+      {
+        "id": "t05-class-10",
+        "title": "驱虫药",
+        "summary": "关注虫积所致病证、驱虫用法以及安全使用要求。",
+        "pdfPages": [
+          19
+        ],
+        "relatedChapterId": "c15"
+      },
+      {
+        "id": "t05-class-11",
+        "title": "止血药",
+        "summary": "按凉血、化瘀、收敛、温经止血等类归纳。",
+        "pdfPages": [
+          19
+        ],
+        "relatedChapterId": "c16"
+      },
+      {
+        "id": "t05-class-12",
+        "title": "活血化瘀药",
+        "summary": "以血瘀证为主线，根据行血、止痛、调经、消癥等方向比较。",
+        "pdfPages": [
+          19
+        ],
+        "relatedChapterId": "c17"
+      },
+      {
+        "id": "t05-class-13",
+        "title": "化痰止咳平喘药",
+        "summary": "结合痰的寒热、咳嗽与气喘病证区分各小类。",
+        "pdfPages": [
+          20
+        ],
+        "relatedChapterId": "c18"
+      },
+      {
+        "id": "t05-class-14",
+        "title": "安神药",
+        "summary": "从神志不宁等病证出发，比较重镇与养心安神。",
+        "pdfPages": [
+          20
+        ],
+        "relatedChapterId": "c19"
+      },
+      {
+        "id": "t05-class-15",
+        "title": "平肝息风药",
+        "summary": "比较平肝潜阳和息风止痉的证候及用药差异。",
+        "pdfPages": [
+          20
+        ],
+        "relatedChapterId": "c20"
+      },
+      {
+        "id": "t05-class-16",
+        "title": "开窍药",
+        "summary": "以闭证神昏的开窍醒神为主，注意药性和使用条件。",
+        "pdfPages": [
+          21
+        ],
+        "relatedChapterId": "c21"
+      },
+      {
+        "id": "t05-class-17",
+        "title": "补益药",
+        "summary": "按补气、补阳、补血、补阴区分正虚类型。",
+        "pdfPages": [
+          21
+        ],
+        "relatedChapterId": "c22"
+      },
+      {
+        "id": "t05-class-18",
+        "title": "收涩药",
+        "summary": "关注自汗、久咳、久泻、遗精等滑脱失禁病证。",
+        "pdfPages": [
+          21
+        ],
+        "relatedChapterId": "c23"
+      },
+      {
+        "id": "t05-class-19",
+        "title": "涌吐药",
+        "summary": "整理涌吐适应证与严格的安全注意事项。",
+        "pdfPages": [
+          22
+        ],
+        "relatedChapterId": "c24"
+      },
+      {
+        "id": "t05-class-20",
+        "title": "攻毒杀虫止痒药",
+        "summary": "主要围绕疮疡、疥癣与虫毒等外治场景。",
+        "pdfPages": [
+          22
+        ],
+        "relatedChapterId": "c25"
+      },
+      {
+        "id": "t05-class-21",
+        "title": "拔毒化腐生肌药",
+        "summary": "以疮疡溃后去腐生肌为主，重点注意外用方法与毒性。",
+        "pdfPages": [
+          22
+        ],
+        "relatedChapterId": "c26"
+      }
+    ]
+  }
+]
