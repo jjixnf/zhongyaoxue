@@ -183,15 +183,25 @@
     "id": "c14",
     "number": 14,
     "title": "消食药",
-    "status": "待录入",
-    "groups": []
+    "status": "6味详细资料，待终审",
+    "groups": [
+      {
+        "id": "c14-01",
+        "title": "消食药"
+      }
+    ]
   },
   {
     "id": "c15",
     "number": 15,
     "title": "驱虫药",
-    "status": "待录入",
-    "groups": []
+    "status": "7味详细资料，待终审",
+    "groups": [
+      {
+        "id": "c15-01",
+        "title": "驱虫药"
+      }
+    ]
   },
   {
     "id": "c16",
