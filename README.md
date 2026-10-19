@@ -16,6 +16,8 @@
 
 - 网站新增「⇆ 药物横向对比」入口：可勾选2–4味已录入的药物，同屏查看四气、五味、归经及功效等差异。
 - 单味药详情持续填充主治病证、用法用量、使用注意、常用配伍及鉴别要点等结构化知识；**没有核实来源时明确显示尚待补充**。功效常显，不再折叠。
+- 详情按知识事实分条，出处、印刷/PDF页码及字段核对范围集中在底部「资料出处与校对」入口，不在各节重复展示维护提示。搜索、复制和横向对比保留完整条目及条件。
+- 本次对照原书印刷192、197、198、210页核对麻黄：补齐主治、用量、煎服、生用/蜜炙/捣绒及相须配伍；纠正运动员禁用。原书198页与210页对部分人群的慎/禁用表述有差异，已并列记录，**尚未核清，整味仍待核全**。未补写无依据的煎煮分钟数、先煎或辨析。
 - **用户只需要在 ChatGPT 对话中发送错题、笔记或截图**，由助手核对、分类、去重、关联知识点，并在确认后写入 GitHub。无需在网站或 GitHub 进行手动提交。外部使用者仍可通过 Issues 提纠错建议，须审核后才可入库。
 - 根目录的 [AGENTS.md](AGENTS.md) 是新对话或 Codex 的接续与修改规范；完整步骤见 [提交工作流](docs/WORKFLOW.md)。
 
@@ -32,6 +34,7 @@ https://jjixnf.github.io/zhongyaoxue/
 ## AI 助手（可选）
 
 - 不配置 AI API，也可以检索所有已录入资料、打开笔记和复制当前药物上下文到 ChatGPT。
+- 复制上下文保留完整资料；超过网页 AI 中转的11500字符或45000字节请求上限时会明确提示且停止发送，不静默删掉后部考点。中转示例的相应修正需要部署者更新 Worker 才生效。
 - 如需在网页内提问，可自行部署 `server/worker.js` 作为 Cloudflare Worker；将真正的 `OPENAI_API_KEY` 存成 Worker 加密 Secret。
 - 另建强随机 `ACCESS_TOKEN` 作为访问密码（不能直接使用 OpenAI API Key）。在 Worker 设置 `ALLOWED_ORIGIN=https://jjixnf.github.io`；`OPENAI_MODEL` 由你选择支持的模型。
 - 在网站的 **配置 API** 中输入 Worker `https://.../chat` 地址与独立访问令牌。站点只在内存中保存令牌，刷新页面后需重新输入。
@@ -45,5 +48,7 @@ https://jjixnf.github.io/zhongyaoxue/
 
 ```bash
 node scripts/validate.mjs
+node --test scripts/*.test.mjs
 node --check app.js
+node --check compare.js
 ```

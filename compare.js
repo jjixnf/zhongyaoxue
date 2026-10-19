@@ -16,11 +16,14 @@
     {title:"五味",get:h=>(h.flavors||[]).join("、")},
     {title:"归经",get:h=>(h.meridians||[]).join("、")},
     {title:"功效",get:h=>h.effects||""},
-    {title:"用法用量",get:h=>h.details?.usage?.text||""},
-    {title:"使用注意",get:h=>h.details?.cautions?.text||""},
-    {title:"主治病证",get:h=>h.details?.indications?.text||""},
-    {title:"炮制与用法特点",get:h=>h.details?.processing?.text||""},
-    {title:"毒性",get:h=>h.details?.toxicity?.text||""}
+    {title:"主治病证",get:h=>detailText(h.details?.indications)},
+    {title:"用法用量",get:h=>detailText(h.details?.usage)},
+    {title:"炮制与用法特点",get:h=>detailText(h.details?.processing)},
+    {title:"使用注意",get:h=>detailText(h.details?.cautions)},
+    {title:"常用配伍",get:h=>detailText(h.details?.pairings)},
+    {title:"鉴别要点",get:h=>detailText(h.details?.differentiation)},
+    {title:"毒性",get:h=>detailText(h.details?.toxicity)},
+    {title:"其他考点",get:h=>detailText(h.details?.specialNotes)}
   ];
   const sync=()=>{
     count.textContent="已选 "+selected.size+"/4 味（至少2味）";
@@ -49,7 +52,7 @@
       const vals=chosen.map(field.get),difference=new Set(vals).size>1;
       html+='<tr><th>'+esc(field.title)+(difference?'<small class="contrast-tag">有差异</small>':'')+'</th>'+vals.map(v=>'<td class="'+(difference?"different":"")+'">'+textCell(v,!v)+'</td>').join("")+'</tr>';
     }
-    html+='</tbody></table></div><p class="mini-note">用法、禁忌和主治尚未逐味录入时显示“尚待补充”，不会自动生成内容。</p>';
+    html+='</tbody></table></div><p class="mini-note">未收录项目显示“尚待补充”；各项出处和核对范围见药物详情。</p>';
     output.innerHTML=html;
     output.querySelectorAll("[data-compare-jump]").forEach(b=>b.onclick=()=>{
       dialog.close();

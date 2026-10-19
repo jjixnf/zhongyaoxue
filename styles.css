@@ -19,6 +19,20 @@
 .herb-extra dl{margin:0}
 .herb-extra dt{font-weight:650;color:#335e48;margin:10px 0 3px}
 .herb-extra dd{margin:0 0 8px;white-space:pre-wrap;line-height:1.7}
+.herb-extra h3{font-size:14px;margin:0 0 9px}
+.detail-items{list-style:none;padding:0;margin:0;white-space:normal}
+.detail-items li{margin:8px 0;overflow-wrap:anywhere}
+.detail-items strong{display:block;font-size:12px;color:#5b725f}
+.detail-items span{display:block;white-space:pre-wrap}
+.herb-extra dd{overflow-wrap:anywhere}
+.review-status{font-size:12px;margin:8px 0}
+.detail-panel .source-details{border-top:1px solid #e7ede6;margin:18px 0 0;padding-top:13px;font-size:12px;overflow-wrap:anywhere}
+.source-details summary{font-weight:600}
+.source-details dl{margin:10px 0 0}
+.source-entry{margin-top:10px}
+.source-entry dt{font-weight:600;color:#526b59}
+.source-entry dd{margin:3px 0 0;color:#7b897c;line-height:1.7}
+.comparison-table td{white-space:pre-wrap;overflow-wrap:anywhere}
 @media(max-width:740px){.compare-dialog{padding:14px}.comparison-candidates{grid-template-columns:repeat(2,minmax(0,1fr))}.heading-actions{justify-content:flex-start}}
 
 .online-issue-link{display:block;text-align:center;padding:10px 8px;border-radius:10px;border:1px solid #b4d5ba;background:#eaf6eb;text-decoration:none;color:#226244;font-weight:600;margin-top:10px}.online-issue-link:hover{background:#dff0e2}

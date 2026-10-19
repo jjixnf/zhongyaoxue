@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { validateSource, validateDetails } from "./detail-schema.mjs";
 const root=path.resolve(import.meta.dirname,"..");
 const read=(name)=>JSON.parse(fs.readFileSync(path.join(root,"data",name+".json"),"utf-8"));
 const [chapters,herbs,knowledge,questions,notes,events,theory]=["chapters","herbs","knowledge","questions","notes","events","theory"].map(read);
@@ -18,16 +19,8 @@ for(const h of herbs){
  check(typeof h.nature==="string"&&h.nature.length>0,"missing nature "+h.id);
  check(Array.isArray(h.flavors)&&h.flavors.length>0&&Array.isArray(h.meridians)&&h.meridians.length>0,"missing flavors or meridians "+h.id);
  check(typeof h.effects==="string"&&h.effects.length>0,"missing effects "+h.id);
- check(Number.isInteger(h.source?.printPage),"missing source page "+h.id);
- if(h.details!==undefined){
-  check(h.details!==null&&typeof h.details==="object"&&!Array.isArray(h.details),"details must be object "+h.id);
-  for(const [field,entry] of Object.entries(h.details||{})){
-   check(["indications","usage","cautions","pairings","differentiation","processing","toxicity","specialNotes"].includes(field),"unknown details field "+field+" for "+h.id);
-   check(entry&&typeof entry.text==="string"&&entry.text.trim().length>0,"details text missing "+field+" for "+h.id);
-   check(entry&&typeof entry.source?.title==="string"&&entry.source.title.trim().length>0,"details source title missing "+field+" for "+h.id);
-   check(entry&&Number.isInteger(entry.source?.printPage),"details source page missing "+field+" for "+h.id);
-  }
- }
+ validateSource(h.source,h.id,check);
+ if(h.details!==undefined)validateDetails(h.details,h.id,check);
 }
 const theoryTopics=new Set();
 for(const section of theory){

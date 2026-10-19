@@ -18,7 +18,13 @@ const records=()=>[...db.questions.map(r=>({...r,origin:"public"})),...db.notes.
 const herbById=(id)=>db.herbs.find(h=>h.id===id);
 const kpById=(id)=>db.knowledge.find(k=>k.id===id);
 const chapterById=(id)=>db.chapters.find(c=>c.id===id);
-function itemText(h){return [h.name,h.nature,...h.flavors,...h.meridians,h.effects,h.groupId].join(" ").toLowerCase();}
+const drugDetailSections=[["indications","主治病证"],["usage","用法用量"],["processing","炮制与用法特点"],["cautions","使用注意"],["pairings","常用配伍"],["differentiation","鉴别要点"],["toxicity","毒性"],["specialNotes","其他考点"]];
+function detailItems(entry){return Array.isArray(entry?.items)?entry.items.filter(item=>typeof item?.text==="string"&&item.text.trim()):[];}
+function detailText(entry){
+ const items=detailItems(entry);
+ return items.length?items.map(item=>(item.label?item.label+"：":"")+item.text).join("\n"):(typeof entry?.text==="string"?entry.text:"");
+}
+function itemText(h){return [h.name,h.nature,...h.flavors,...h.meridians,h.effects,h.groupId,...Object.values(h.details||{}).flatMap(entry=>[entry.text||"",detailText(entry)])].join(" ").toLowerCase();}
 function attachedToHerb(r,h){
  if ((r.herbIds||[]).includes(h.id))return true;
  return (r.knowledgeIds||[]).some(id=>(kpById(id)?.herbIds||[]).includes(h.id));
@@ -82,25 +88,52 @@ function enableRecordLinks(scope){scope.querySelectorAll("[data-record]").forEac
 // 资料细节是可选且必须有来源的扩展字段；不存在时不凭空生成医学知识
 function renderDrugExtra(h){
  const detail=h.details||{};
- const sections=[["indications","主治病证"],["usage","用法用量"],["cautions","使用注意"],["pairings","常用配伍"],["differentiation","鉴别要点"],["processing","炮制与用法特点"],["toxicity","毒性"],["specialNotes","其他原书考点"]];
- let html='<div class="herb-extra"><h3>单味药扩展资料</h3>';
+ let html='<div class="herb-extra"><h3>药物详解</h3>';
  let count=0;
- for (const [key,label] of sections){
+ for (const [key,label] of drugDetailSections){
    const entry=detail[key];
-   if(!entry||typeof entry.text!=="string"||!entry.text.trim())continue;
+   if(!detailText(entry).trim())continue;
    count++;
-   const source=entry.source||{},place=source.printPage?" · 页"+source.printPage:"";
-   const status=entry.reviewStatus?(" · "+entry.reviewStatus):"";
-   html+='<dl><dt>'+escapeHtml(label)+'</dt><dd>'+escapeHtml(entry.text)+'</dd></dl><p class="mini-note">来源：'+escapeHtml(source.title||"待注明")+escapeHtml(place)+escapeHtml(status)+'</p>';
+   const items=detailItems(entry);
+   const content=items.length?'<ul class="detail-items">'+items.map(item=>'<li>'+(item.label?'<strong>'+escapeHtml(item.label)+'</strong>':'')+'<span>'+escapeHtml(item.text)+'</span></li>').join("")+'</ul>':escapeHtml(entry.text);
+   html+='<dl><dt>'+escapeHtml(label)+'</dt><dd>'+content+'</dd></dl>';
  }
  if(!count)html+='<p class="mini-note">主治、用量、注意事项、配伍和鉴别点尚待按教材逐味录入。现有功效与性味归经已在上方展示。</p>';
  return html+'</div>';
+}
+function sourceText(source={}){
+ return [source.title?"《"+source.title+"》":"来源待注明",source.edition||"",source.printPage?"印刷页 "+source.printPage:"",source.pdfPage?"PDF 第 "+source.pdfPage+" 页":""].filter(Boolean).join(" · ");
+}
+function verificationText(source={}){
+ const verification=source.verification;
+ if(!verification)return "";
+ const method=verification.method==="pdf-visual"?"PDF 页面核对":verification.method;
+ const scope=Array.isArray(verification.scope)?verification.scope.join("、"):verification.scope;
+ return [method,verification.verifiedAt,scope?"核对范围："+scope:""].filter(Boolean).join(" · ");
+}
+function provenanceRows(h){
+ const rows=[{label:"性味归经与功效",source:h.source||{},reviewStatus:h.reviewStatus||"待逐味复核"}];
+ for(const [key,label] of drugDetailSections){
+  const entry=h.details?.[key];
+  if(!detailText(entry).trim())continue;
+  const source=entry.source||h.source||{},reviewStatus=entry.reviewStatus||h.reviewStatus||"待复核";
+  rows.push({label,source,reviewStatus});
+  for(const item of detailItems(entry)){
+   if(item.source||item.reviewStatus)rows.push({label:label+" · "+(item.label||item.text),source:item.source||source,reviewStatus:item.reviewStatus||reviewStatus});
+  }
+ }
+ return rows;
+}
+function renderProvenance(h){
+ return '<details class="source-details"><summary>资料出处与校对</summary><p class="mini-note">核对范围以各项记录为准，部分核对不代表整味药已复核。</p><dl>'+provenanceRows(h).map(row=>'<div class="source-entry"><dt>'+escapeHtml(row.label)+'</dt><dd>'+escapeHtml(sourceText(row.source))+'<br><span>'+escapeHtml(row.reviewStatus)+'</span>'+(verificationText(row.source)?'<br>'+escapeHtml(verificationText(row.source)):"")+'</dd></div>').join("")+'</dl></details>';
 }
 function renderDetail(){
  let h=herbById(activeHerb);
  if(!h){$("detailPanel").innerHTML='<div class="placeholder">选择一味药，查看药性、药味、归经、功效及关联错题和笔记。</div>';return;}
  const chapter=chapterById(h.chapterId),group=chapter?.groups.find(g=>g.id===h.groupId),linked=linkedRecords(h),points=db.knowledge.filter(k=>(k.herbIds||[]).includes(h.id));
- $("detailPanel").innerHTML='<div class="detail-top"><div><span class="tag">'+escapeHtml(chapter?.title||"")+'</span><span class="tag">'+escapeHtml(group?.title||"")+'</span><h2>'+escapeHtml(h.name)+'</h2><span class="tag">'+escapeHtml(h.syllabusLevel||"考纲级别待核") +'</span></div><button class="ghost" id="copyHerb" type="button">复制资料</button></div><p class="muted">来源：《'+escapeHtml(h.source?.title||"学霸笔记—中药学")+'》印刷页 '+escapeHtml(h.source?.printPage||"待查")+' · '+escapeHtml(h.reviewStatus||"待复核")+'</p><div class="property-grid"><div class="property"><small>四气</small><strong class="warm">'+escapeHtml(h.nature)+'</strong></div><div class="property"><small>五味</small><strong>'+escapeHtml(h.flavors.join("、"))+'</strong></div><div class="property"><small>归经</small><strong>'+escapeHtml(h.meridians.join("、"))+'</strong></div></div><div class="subsection"><h3>功效</h3><p>'+escapeHtml(h.effects)+'</p></div>'+renderDrugExtra(h)+'<div class="subsection"><h3>知识点</h3><div class="pill-row">'+points.map(k=>'<span class="chip" title="'+escapeHtml(k.id)+'">'+escapeHtml(k.title)+'</span>').join("")+'</div></div><div class="subsection"><div class="section-heading"><h3>关联错题和笔记（'+linked.length+'）</h3></div><div class="button-pair"><button class="primary" id="addRelatedQuestion" type="button">＋ 添加错题</button><button id="addRelatedNote" type="button">＋ 添加笔记</button></div>'+(linked.length?linked.map(recordCard).join(""):'<p class="muted">暂无关联记录；新增后将与本味药和对应知识点双向关联。</p>')+'</div>';
+ $("detailPanel").innerHTML='<div class="detail-top"><div><span class="tag">'+escapeHtml(chapter?.title||"")+'</span><span class="tag">'+escapeHtml(group?.title||"")+'</span><h2>'+escapeHtml(h.name)+'</h2><span class="tag">'+escapeHtml(h.syllabusLevel||"考纲级别待核") +'</span></div><button class="ghost" id="copyHerb" type="button">复制资料</button></div>'+
+ '<p class="muted review-status">'+escapeHtml(h.reviewStatus||"待逐味复核")+'</p><div class="property-grid"><div class="property"><small>四气</small><strong class="warm">'+escapeHtml(h.nature)+'</strong></div><div class="property"><small>五味</small><strong>'+escapeHtml(h.flavors.join("、"))+'</strong></div><div class="property"><small>归经</small><strong>'+escapeHtml(h.meridians.join("、"))+'</strong></div></div><div class="subsection"><h3>功效</h3><p>'+escapeHtml(h.effects)+'</p></div>'+renderDrugExtra(h)+
+ '<div class="subsection"><h3>知识点</h3><div class="pill-row">'+points.map(k=>'<span class="chip" title="'+escapeHtml(k.id)+'">'+escapeHtml(k.title)+'</span>').join("")+'</div></div><div class="subsection"><div class="section-heading"><h3>关联错题和笔记（'+linked.length+'）</h3></div><div class="button-pair"><button class="primary" id="addRelatedQuestion" type="button">＋ 添加错题</button><button id="addRelatedNote" type="button">＋ 添加笔记</button></div>'+(linked.length?linked.map(recordCard).join(""):'<p class="muted">暂无关联记录；新增后将与本味药和对应知识点双向关联。</p>')+'</div>'+renderProvenance(h);
  $("copyHerb").onclick=()=>copyText(contextForHerb(h),"已复制当前药物资料");
  $("addRelatedQuestion").onclick=()=>openRecordForm("question",h.id);
  $("addRelatedNote").onclick=()=>openRecordForm("note",h.id);
@@ -185,7 +218,9 @@ $("recordForm").onsubmit=(e)=>{
 };
 function contextForHerb(h){
  const attached=linkedRecords(h).slice(0,20);
- return "【资料来源】《学霸笔记—中药学》印刷页"+h.source.printPage+"（数据库待逐味复核）\n【药名】"+h.name+"\n【性】"+h.nature+"\n【味】"+h.flavors.join("、")+"\n【归经】"+h.meridians.join("、")+"\n【功效】"+h.effects+"\n【主治、用法等已录入细节】\n"+Object.entries(h.details||{}).map(([k,v])=>k+"："+(v.text||"")+"（"+(v.reviewStatus||"待复核")+"）").join("\n")+"\n【错题和笔记】\n"+(attached.length?attached.map(r=>"["+r.type+"] "+r.title+"\n"+r.body+"\n"+(r.analysis||"")).join("\n---\n"):"暂无");
+ const details=drugDetailSections.filter(([key])=>detailText(h.details?.[key]).trim()).map(([key,label])=>"【"+label+"】\n"+detailText(h.details[key])).join("\n");
+ const sources=provenanceRows(h).map(row=>row.label+"："+[sourceText(row.source),row.reviewStatus,verificationText(row.source)].filter(Boolean).join("；")).join("\n");
+ return "【药名】"+h.name+"\n【性】"+h.nature+"\n【味】"+h.flavors.join("、")+"\n【归经】"+h.meridians.join("、")+"\n【功效】"+h.effects+"\n"+details+"\n【资料出处与校对】\n"+sources+"\n【错题和笔记】\n"+(attached.length?attached.map(r=>"["+r.type+"] "+r.title+"\n"+r.body+"\n"+(r.analysis||"")).join("\n---\n"):"暂无");
 }
 function aiContext(){
  const section=db.theory.find(x=>x.chapterId===activeChapter);
@@ -194,11 +229,11 @@ function aiContext(){
   const linked=records().filter(r=>(r.knowledgeIds||[]).includes("kp-"+(t?.id||"")));
   return ("【资料来源】《学霸笔记—中药学》前五章主题概要（仍在扩充）\n【章节】"+section.title+"\n【主题】"+(t?.title||"")+
   "\n【知识点概要】"+(t?.summary||"")+"\n【原 PDF 页码】"+(t?.pdfPages.join("、")||"")+
-  "\n【关联错题与笔记】\n"+linked.map(r=>r.title+"："+r.body).join("\n")).slice(0,10000);
+  "\n【关联错题与笔记】\n"+linked.map(r=>r.title+"："+r.body).join("\n"));
  }
  const h=herbById(activeHerb);
- if(h)return contextForHerb(h).slice(0,10000);
- return matchingHerbs().slice(0,12).map(contextForHerb).join("\n\n").slice(0,10000)||"没有相关知识库内容";
+ if(h)return contextForHerb(h);
+ return matchingHerbs().slice(0,12).map(contextForHerb).join("\n\n")||"没有相关知识库内容";
 }
 async function copyText(value,status){
  try{await navigator.clipboard.writeText(value);$("aiStatus").textContent=status||"已复制";}catch{$("aiStatus").textContent="复制失败，请使用 HTTPS 网页或手动复制。";}
@@ -237,9 +272,11 @@ $("saveAiSettings").onclick=()=>{
 $("askAi").onclick=async()=>{
  const question=$("aiQuestion").value.trim();if(!question){$("aiStatus").textContent="先输入问题";return;}
  if(!workerUrl||!accessToken){$("aiStatus").textContent="请先配置受保护的 API 中转地址与访问令牌，或者复制上下文到 ChatGPT。";return;}
+ const context=aiContext(),body=JSON.stringify({question,context});
+ if(context.length>11500||new TextEncoder().encode(body).length>45000){$("aiStatus").textContent="资料超过网页 AI 中转上限，未发送也未截断。请使用“复制上下文”保留完整资料。";return;}
  const btn=$("askAi");btn.disabled=true;$("aiStatus").textContent="正在发送知识库上下文……";
  try{
- const resp=await fetch(workerUrl,{method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+accessToken},body:JSON.stringify({question,context:aiContext()})});
+ const resp=await fetch(workerUrl,{method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+accessToken},body});
  const result=await resp.json();if(!resp.ok)throw Error(result.error||"HTTP "+resp.status);
  $("aiResponse").hidden=false;$("aiResponse").textContent=String(result.answer||"没有收到回复");
  $("aiStatus").textContent="AI 回复完成。请结合来源核对重要信息。";
