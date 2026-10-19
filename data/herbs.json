@@ -47,7 +47,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-guizhi",
@@ -107,7 +108,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-zisuye",
@@ -147,7 +149,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-shengjiang",
@@ -206,7 +209,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-xiangru",
@@ -256,7 +260,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-jingjie",
@@ -296,7 +301,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-fangfeng",
@@ -318,7 +324,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 211
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-qianghuo",
@@ -339,7 +346,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 211
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-baizhi",
@@ -360,7 +368,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 211
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-xixin",
@@ -410,7 +419,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-cangerzi",
@@ -430,7 +440,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 212
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-gaoben",
@@ -449,7 +460,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 212
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "常用中药"
   },
   {
     "id": "herb-xinyi",
@@ -469,7 +481,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 212
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "常用中药"
   },
   {
     "id": "herb-congbai",
@@ -489,7 +502,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 212
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "常用中药"
   },
   {
     "id": "herb-bohe",
@@ -520,7 +534,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-niubangzi",
@@ -541,7 +556,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 213
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-chantui",
@@ -561,7 +577,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 213
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-sangye",
@@ -582,7 +599,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 213
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-juhua",
@@ -604,7 +622,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 213
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-manjingzi",
@@ -626,7 +645,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 213
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-chaihu",
@@ -648,7 +668,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 213
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-shengma",
@@ -671,7 +692,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 213
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-gegen",
@@ -713,7 +735,8 @@
         },
         "reviewStatus": "原书信息已摘录，表述待终审"
       }
-    }
+    },
+    "syllabusLevel": "重点掌握（*）"
   },
   {
     "id": "herb-dandouchi",
@@ -734,7 +757,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 214
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "常用中药"
   },
   {
     "id": "herb-fuping",
@@ -754,7 +778,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 214
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "常用中药"
   },
   {
     "id": "herb-muzei",
@@ -775,7 +800,8 @@
       "title": "学霸笔记—中药学",
       "printPage": 214
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "常用中药"
   },
   {
     "id": "herb-gujingcao",
@@ -796,6 +822,7 @@
       "title": "学霸笔记—中药学",
       "printPage": 214
     },
-    "reviewStatus": "待逐味复核"
+    "reviewStatus": "待逐味复核",
+    "syllabusLevel": "常用中药"
   }
 ]
