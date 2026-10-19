@@ -349,5 +349,519 @@
     ],
     "source": "学霸笔记—中药学",
     "reviewStatus": "待逐味复核"
+  },
+  {
+    "id": "kp-t01-concepts",
+    "chapterId": "c01",
+    "herbIds": [],
+    "title": "中药、本草与中药学",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      1
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t01-history",
+    "chapterId": "c01",
+    "herbIds": [],
+    "title": "历代本草文献及贡献",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      1,
+      2
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t02-origin",
+    "chapterId": "c02",
+    "herbIds": [],
+    "title": "道地药材与产地",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      3
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t02-collect",
+    "chapterId": "c02",
+    "herbIds": [],
+    "title": "不同药用部位的采收",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      3,
+      4
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t02-processing",
+    "chapterId": "c02",
+    "herbIds": [],
+    "title": "炮制目的与方法",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t03-four-natures",
+    "chapterId": "c03",
+    "herbIds": [],
+    "title": "四气",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      8
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t03-five-flavors",
+    "chapterId": "c03",
+    "herbIds": [],
+    "title": "五味",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      8,
+      9
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t03-meridians",
+    "chapterId": "c03",
+    "herbIds": [],
+    "title": "归经",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      9
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t03-ascending",
+    "chapterId": "c03",
+    "herbIds": [],
+    "title": "升降浮沉",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      9,
+      10
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t03-toxicity",
+    "chapterId": "c03",
+    "herbIds": [],
+    "title": "中药毒性及用药风险",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      10
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t04-compatibility",
+    "chapterId": "c04",
+    "herbIds": [],
+    "title": "七情配伍",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      11
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t04-contraindication",
+    "chapterId": "c04",
+    "herbIds": [],
+    "title": "配伍与妊娠等用药禁忌",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      12,
+      13
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t04-dosage",
+    "chapterId": "c04",
+    "herbIds": [],
+    "title": "用药剂量及影响因素",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      13,
+      14
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t04-decoction",
+    "chapterId": "c04",
+    "herbIds": [],
+    "title": "煎煮方法与特殊入药法",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      14,
+      15
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t04-administration",
+    "chapterId": "c04",
+    "herbIds": [],
+    "title": "服药时间与方法",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      16
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-01",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "解表药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      16
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-02",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "清热药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      16
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-03",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "泻下药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      16
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-04",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "祛风湿药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      17
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-05",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "化湿药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      17
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-06",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "利水渗湿药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      17
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-07",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "温里药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      18
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-08",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "理气药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      18
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-09",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "消食药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      18
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-10",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "驱虫药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      19
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-11",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "止血药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      19
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-12",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "活血化瘀药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      19
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-13",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "化痰止咳平喘药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      20
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-14",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "安神药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      20
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-15",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "平肝息风药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      20
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-16",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "开窍药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      21
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-17",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "补益药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      21
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-18",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "收涩药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      21
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-19",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "涌吐药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      22
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-20",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "攻毒杀虫止痒药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      22
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
+  },
+  {
+    "id": "kp-t05-class-21",
+    "chapterId": "c05",
+    "herbIds": [],
+    "title": "拔毒化腐生肌药",
+    "tags": [
+      "基础理论"
+    ],
+    "source": "学霸笔记—中药学",
+    "sourcePdfPages": [
+      22
+    ],
+    "reviewStatus": "理论概要已整理，细节待扩充"
   }
 ]

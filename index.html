@@ -18,10 +18,10 @@
   <aside class="panel nav-panel">
     <div class="section-heading"><h2>教材章节</h2><span id="chapterCount" class="muted"></span></div>
     <nav id="chapterNav" aria-label="章节列表"></nav>
-    <p class="mini-note">按《学霸笔记—中药学》排列。未录入的章节保留目录，不显示虚构药物。</p>
+    <p class="mini-note">覆盖《学霸笔记—中药学》全书26章。理论主题及药物资料逐章扩充；缺失内容明确标注。</p>
   </aside>
   <main class="panel workspace">
-    <div class="section-heading"><div><h2>中药检索</h2><p class="muted">从性味归经出发，连接相关错题与笔记</p></div><div class="heading-actions"><span id="herbCount" class="tiny-label"></span><button id="compareOpen" class="secondary" type="button">⇆ 药物横向对比</button></div></div>
+    <div class="section-heading"><div><h2>中药检索</h2><p class="muted">整本教材 · 性味归经、功效、主治、用法与关联错题笔记</p></div><div class="heading-actions"><span id="herbCount" class="tiny-label"></span><button id="compareOpen" class="secondary" type="button">⇆ 药物横向对比</button></div></div>
     <label class="sr-only" for="searchInput">全局搜索</label>
     <input id="searchInput" class="search" type="search" placeholder="搜索药名、性味、归经、功效、错题和笔记……" autocomplete="off">
     <div class="filters">
@@ -49,7 +49,7 @@
       <div class="button-pair"><button class="primary" id="newQuestion" type="button">＋错题</button><button id="newNote" type="button">＋笔记</button></div>
       <p class="mini-note">可以关联多味药和多个知识点。本机新增资料先保存在当前浏览器，导出后可整理进 GitHub。</p>
       <div id="recentRecords"></div>
-      <a id="submitOnline" class="online-issue-link" href="https://github.com/jjixnf/zhongyaoxue/issues/new/choose" target="_blank" rel="noopener noreferrer">在 GitHub 提交错题或笔记 ↗</a>
+      <p class="mini-note">正式资料请直接发给 ChatGPT：由助手核对、整理并提交 GitHub。这里的本地添加仅供临时记录。</p>
       <div class="button-pair"><button id="importBtn" class="ghost" type="button">导入备份</button><input id="importFile" type="file" accept="application/json" hidden></div>
     </section>
     <section class="panel ai-card">

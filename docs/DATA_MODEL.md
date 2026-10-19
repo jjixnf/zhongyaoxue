@@ -4,8 +4,8 @@
 
 | 集合 | 关键字段 | 说明 |
 |---|---|---|
-| chapters | id,number,title,groups | 章节编号与小类独立编号 |
-| herbs | id,name,chapterId,groupId,nature,flavors,meridians,effects,source,reviewStatus | 以《学霸笔记—中药学》印刷页码为准，未核对标“待逐味复核” |
+| chapters | id,number,title,groups,type | 完整26章目录，前5章为theory类型，后21章为药物分类 |
+| theory | chapterId,title,pdfPages,topics | 前五章理论知识点的原创概要与PDF页码，topic.id稳定 |\n| herbs | id,name,chapterId,groupId,nature,flavors,meridians,effects,source,reviewStatus | 以《学霸笔记—中药学》印刷页码为准，未核对标“待逐味复核” |
 | knowledge | id,chapterId,herbIds,title,tags | 独立考点，可挂多个药 |
 | questions / notes | id,type,title,body,answer,analysis,herbIds,knowledgeIds,createdAt,updatedAt | 多对多关联；原题注明来源，个人笔记和 AI 总结须分层 |
 | events | id,date,eventType,entityType,entityId,label | 日期以 Asia/Shanghai 为基准；新增与修改不能混为一谈 |
@@ -49,3 +49,11 @@
 ## 网站功能补充
 - `compare.js` 负责纯前端横向对比；2–4味药，按四气、五味、归经、功效、用法、注意、主治进行列对齐。黄色仅表示字符串内容不同，不意味着医学上的矛盾。
 - 在线提交入口采用 GitHub Issue Forms，见 `docs/WORKFLOW.md`；提交 Issue 不会自动合并入正式知识库。
+
+## 完整教材录入原则
+- **收录范围为整本《学霸笔记—中药学》**，不限于性味归经；但对外不复制原书长篇文字、表格截图。
+- 目前前五章理论先录主题概要，后续逐节补全考研知识要点。药物条目逐味填写主治、用量、注意、配伍、鉴别等字段，逐项标记原书页码和复核状态。
+- 知识点文件 `data/knowledge.json` 同时保存 `kp-t0*` 理论节点和 `kp-herb-*` 药物节点；一条笔记或错题可关联多个节点。
+- 用户无需自行在网站提交，一切新增资料先经过助手分析和来源复核，再提交 GitHub。
+
+**扩展字段约定**：`details.processing`（炮制与用法特点）、`details.toxicity`（毒性）、`details.specialNotes`（其他教材特有考点）采用同一 `{text,source,reviewStatus}` 结构；未核对不填。药物 `syllabusLevel` 保留原书 * 重点标记，不能把所有药物默认为同一级。
