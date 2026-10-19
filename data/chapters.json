@@ -1,5 +1,45 @@
 [
   {
+    "id": "c01",
+    "number": 1,
+    "title": "中药学的起源与发展",
+    "status": "基础总览已录入，详细考点待扩充",
+    "type": "theory",
+    "groups": []
+  },
+  {
+    "id": "c02",
+    "number": 2,
+    "title": "中药的产地、采集与炮制",
+    "status": "基础总览已录入，详细考点待扩充",
+    "type": "theory",
+    "groups": []
+  },
+  {
+    "id": "c03",
+    "number": 3,
+    "title": "药性理论",
+    "status": "基础总览已录入，详细考点待扩充",
+    "type": "theory",
+    "groups": []
+  },
+  {
+    "id": "c04",
+    "number": 4,
+    "title": "中药的配伍及用法",
+    "status": "基础总览已录入，详细考点待扩充",
+    "type": "theory",
+    "groups": []
+  },
+  {
+    "id": "c05",
+    "number": 5,
+    "title": "各类药物总论",
+    "status": "基础总览已录入，详细考点待扩充",
+    "type": "theory",
+    "groups": []
+  },
+  {
     "id": "c06",
     "number": 6,
     "title": "解表药",
